@@ -1,8 +1,8 @@
 # 12 · Open Questions
 
-**Status:** [↻ living record] · v1.0.0 · 11 July 2026
+**Status:** [↻ living record] · v1.2.0 · 12 July 2026
 
-Everything here is **Unknown / Insufficient data** as of this version. Nothing in the study's analysis is permitted to rest on an assumed answer to any item below. Items resolve only against vendor documentation, direct vendor response or authoritative reporting; resolution is logged in the changelog and the resolving source is added to `13-sources.md`.
+Everything here is **Unknown / Insufficient data** as of this version. Nothing in the study's analysis is permitted to rest on an assumed answer to any item below. Items resolve only against vendor documentation, direct vendor response or authoritative reporting; resolution is logged in the changelog and the resolving source is added to `13-sources.md`. Where a resolution reaches the study through a person rather than a public source, it is attributed only with that person's consent.
 
 This register holds **product-specific factual unknowns** (Q-series): questions with a true answer that this study does not yet possess. It is distinct from `14-enterprise-question-set.md` (E-series), which holds **enterprise decision questions**: questions with no single true answer, only resolutions each organization must choose. A deployer needs both registers answered, in different senses of "answered," before deployment.
 

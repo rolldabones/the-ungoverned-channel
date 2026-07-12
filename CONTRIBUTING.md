@@ -1,6 +1,6 @@
 # Contributing
 
-**Status:** [✓ final] · v1.1.0 · 12 July 2026
+**Status:** [✓ final] · v1.2.0 · 12 July 2026
 
 This is a single-author case study with an open door. Contributions improve it; they do not co-author it. One named human remains accountable for every claim in the repository, which is the repository practicing its own control C1 (`09-compensating-controls.md`).
 
@@ -18,7 +18,7 @@ Style edits, unverifiable claims, vendor marketing restated as fact and product 
 
 ## How
 
-Open a GitHub Issue for anything substantive; pull requests are accepted for source additions and typographical corrections. Analytical changes are made by the maintainer so that authorship and accountability stay in one place. Vendor responses are handled as described in the README: logged with attribution and date, sources added, superseded claims marked in place.
+Open a GitHub Issue for anything substantive; pull requests are accepted for source additions and typographical corrections. Analytical changes are made by the maintainer so that authorship and accountability stay in one place. Corrections may be shared formally or informally, from the vendor or anywhere else; they are attributed only with the contributor's consent, and informal pointers are used to check the public record rather than quoted.
 
 ## What happens to an accepted change
 

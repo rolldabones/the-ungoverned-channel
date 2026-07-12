@@ -2,6 +2,17 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.2.0] · 2026-07-12 · Positioning and engagement posture
+
+### Added
+- README section "In what capacity": the study is personal work by a concerned user of these tools; not an audit, an assurance engagement or legal advice; written on behalf of no organization, client or employer; meant to be useful to enterprises deciding whether and how to deploy Claude Tag and, where the observations hold up, to the vendor.
+
+### Changed (prior posture superseded)
+- The README engagement section is retitled "Corrections and contributions" and rewritten. v1.1.0 committed to logging vendor answers "with attribution and date"; that framing read as putting respondents on the record and is withdrawn. The study now asks nothing of the vendor and updates against the public record; corrections are attributed only with the contributor's consent, and informal pointers are never quoted or cited. `CONTRIBUTING.md` and the `12-open-questions.md` preamble are aligned.
+
+### Unchanged
+- The analysis itself. No claim, control, prediction or open question is altered by this release.
+
 ## [1.1.1] · 2026-07-12 · Link verification patch
 
 ### Corrected (prior claims superseded, marked in place)

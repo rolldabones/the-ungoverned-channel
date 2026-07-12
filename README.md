@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.1.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 12 July 2026 (Asia/Seoul)
+**Version:** 1.2.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 12 July 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -18,6 +18,10 @@ The working thesis, stated so it can be attacked:
 The case study exists because this product family is a natural experiment. For the first time at scale, an AI agent holds a shared identity among many human principals, accumulates persistent memory of their work, connects contexts an organization deliberately kept apart and acts on its own initiative. Whatever happens here will happen again, in other platforms, with other vendors. Recording the governance questions now, before the incident reports arrive, is the point.
 
 The questions raised here are important for agentic AI generally, not for one vendor's product. File `14-enterprise-question-set.md` makes this explicit: a jurisdiction-agnostic, product-agnostic set of pre-deployment questions with possible resolutions, usable by any enterprise assessing any persistent multi-user agent. If a reader takes one file from this repository, it should be that one.
+
+## In what capacity
+
+This is personal work. The author writes as a concerned user of these tools and a student of their governance, not as anyone's counsel, auditor or representative: the study is not an audit or assurance engagement, it is not legal advice and it is written on behalf of no organization, client or employer. It is meant to be useful to enterprises deciding whether and how to deploy Claude Tag and, where the observations hold up, to the vendor building it. The tone is critical because the method requires it, not because the intent is adversarial; a case study that cannot find fault cannot find anything.
 
 ## Why a living document
 
@@ -61,11 +65,11 @@ Each update bumps the version, logs the change and, where a prior claim is revis
 
 This case study was drafted with Claude, an Anthropic model, analyzing an Anthropic product. That is a structural conflict and it is not waved away. Mitigations: the analysis privileges independent security research and adversarial framings over vendor statements; vendor self-reports are labeled as such and given no evidentiary weight; and the predictions register creates accountability the drafting process cannot retract. Readers should nonetheless apply independent judgment.
 
-## Corrections, contributions and the vendor
+## Corrections and contributions
 
-This study is written to be corrected. Factual errors, superseding sources and contributed enterprise questions are welcome through GitHub Issues; `CONTRIBUTING.md` sets out what is accepted and how changes are logged. Every accepted change is versioned and changelogged, and any claim it supersedes is marked as superseded on the record rather than silently replaced. Citation metadata is in `CITATION.cff`.
+This study is written to be corrected. Factual errors, superseding sources and contributed enterprise questions are welcome through GitHub Issues; `CONTRIBUTING.md` sets out what is accepted and how changes are logged. Every accepted change is versioned and changelogged, and any claim it supersedes is marked as superseded rather than silently replaced. Citation metadata is in `CITATION.cff`.
 
-A standing invitation to Anthropic follows from the method. The register in `12-open-questions.md` (Q1 to Q10) resolves only against vendor documentation or direct vendor response, and several items (memory disposition on removal, audit retention and export, legal hold, memory enumeration) are answerable only by the vendor. Answers will be logged with attribution and date, the resolving sources added to `13-sources.md` and any superseded claim marked in place. Disagreement with the analysis is equally useful: counterarguments that survive contact improve `10-verdict.md`, and vendor tooling that breaks a ledger row is exactly what the predictions register exists to record.
+Several of the open questions in `12-open-questions.md` can only ever be resolved by vendor documentation. The study asks nothing of anyone on that front: it updates when the public record does. Anyone closer to the facts than the public record, at the vendor or anywhere else, is welcome to point out where the study is wrong, formally or informally. Disagreement is equally useful: counterarguments that survive contact improve `10-verdict.md`, and vendor tooling that breaks a ledger row is exactly what the predictions register exists to record. Corrections are attributed only with the contributor's consent, and nothing shared informally is quoted or cited without it; the goal is a more accurate document, not a record of who said what.
 
 ## Doctrinal frame
 
