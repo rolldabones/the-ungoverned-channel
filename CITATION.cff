@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you cite this case study, please use the metadata below."
+title: "The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows"
+authors:
+  - family-names: "Paik"
+    given-names: "Son-U Michael"
+version: 1.1.0
+date-released: "2026-07-12"
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/rolldabones/the-ungoverned-channel"
+abstract: "A versioned, falsifiable case study of persistent multiplayer AI agents in enterprise messaging (Claude in Slack and Claude Tag), examining whether such deployments can satisfy prevailing AI governance, risk management and compliance frameworks, with a feature-control ledger, compensating controls, a predictions register and a product-agnostic enterprise question set."
+keywords:
+  - AI governance
+  - agentic AI
+  - multiplayer agents
+  - Slack
+  - Claude Tag
+  - EU AI Act
+  - accountability

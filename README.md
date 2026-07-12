@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.0.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 11 July 2026 (Asia/Seoul)
+**Version:** 1.1.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 12 July 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -43,6 +43,8 @@ A static memo on a beta product is stale on publication. The vendor's migration 
 | `14-enterprise-question-set.md` | **Jurisdiction-agnostic, product-agnostic pre-deployment questions (E1–E25) with possible resolutions, for any enterprise assessing agentic AI** |
 | `CHANGELOG.md` | Every change, logged |
 
+Not every reader needs every file. A board member or approving executive: `05`, `10` and `14`. A deploying risk or compliance function: `09`, `12` and `14`. A security team: `03`, `06` and `09`. Counsel: `07` and `08`. A reader with ten minutes: `05`, then the last sentence of `10`.
+
 ## Update protocol
 
 An update is triggered by any of the following, and only by the following:
@@ -58,6 +60,12 @@ Each update bumps the version, logs the change and, where a prior claim is revis
 ## Provenance and bias disclosure
 
 This case study was drafted with Claude, an Anthropic model, analyzing an Anthropic product. That is a structural conflict and it is not waved away. Mitigations: the analysis privileges independent security research and adversarial framings over vendor statements; vendor self-reports are labeled as such and given no evidentiary weight; and the predictions register creates accountability the drafting process cannot retract. Readers should nonetheless apply independent judgment.
+
+## Corrections, contributions and the vendor
+
+This study is written to be corrected. Factual errors, superseding sources and contributed enterprise questions are welcome through GitHub Issues; `CONTRIBUTING.md` sets out what is accepted and how changes are logged. Every accepted change is versioned and changelogged, and any claim it supersedes is marked as superseded on the record rather than silently replaced. Citation metadata is in `CITATION.cff`.
+
+A standing invitation to Anthropic follows from the method. The register in `12-open-questions.md` (Q1 to Q10) resolves only against vendor documentation or direct vendor response, and several items (memory disposition on removal, audit retention and export, legal hold, memory enumeration) are answerable only by the vendor. Answers will be logged with attribution and date, the resolving sources added to `13-sources.md` and any superseded claim marked in place. Disagreement with the analysis is equally useful: counterarguments that survive contact improve `10-verdict.md`, and vendor tooling that breaks a ledger row is exactly what the predictions register exists to record.
 
 ## Doctrinal frame
 

@@ -1,6 +1,6 @@
 # 07 · Regulatory Mapping
 
-**Status:** [✓ final] · v1.0.0 · 11 July 2026 · Verified against the Digital Omnibus as approved by the Council on 29 June 2026
+**Status:** [✓ final] · v1.1.0 · 12 July 2026 · Verified against the Digital Omnibus as approved by the Council on 29 June 2026 and against Colorado SB 26-189 as signed 14 May 2026
 
 ⚠ This file maps exposure; it is not advice. Jurisdiction-specific questions flagged below require external counsel in the relevant jurisdiction.
 
@@ -12,7 +12,7 @@ The Digital Omnibus on AI received the European Parliament's endorsement on 16 J
 |---|---|---|
 | Since 2 Feb 2025 | Art 4 AI literacy; Art 5 prohibited practices | Deployers must ensure staff AI literacy. Directly relevant: a workforce interacting casually with an agent in Slack is the literacy obligation's hardest case |
 | 2 Aug 2026 | Art 50 transparency obligations (deployer-side unaffected by the Omnibus) | Users must be informed they are interacting with an AI system. Inside the channel, the @Claude handle arguably discharges this. The live question is downstream: agent-generated text copied out of Slack into external communications carries no marker |
-| 2 Dec 2026 | Art 50(2) provider watermarking (deferred); new Art 5 NCII/CSAM prohibition | Provider-side; deployer relevance limited |
+| 2 Dec 2026 | End of the Art 50(2) marking grace period for systems on the market before 2 Aug 2026 (systems newly placed on the market comply from 2 Aug 2026); new Art 5 NCII/CSAM prohibition | Provider-side; deployer relevance limited |
 | 2 Dec 2027 | Annex III high-risk obligations (deferred from 2 Aug 2026) | See classification drift, below |
 | 2 Aug 2028 | Annex I embedded high-risk obligations | Not relevant to this deployment class |
 
@@ -26,7 +26,7 @@ The AI Framework Act (framework act on the development of artificial intelligenc
 
 ## C. United States
 
-No horizontal federal AI statute governs this deployment. The exposure is composed of existing law hitting new facts: sectoral regulators (FINRA and SEC books-and-records and supervision duties are acutely relevant, since channel-agent output in a broker-dealer's Slack is likely a record subject to retention and supervision), state laws (Colorado's AI Act, as amended and delayed to mid-2026, targets consequential decisions and would capture drifted HR uses; Illinois BIPA-style statutes if any biometric-adjacent processing occurs), FTC Section 5 for deceptive or unfair practices, and common-law negligence with the internal-accountability collapse of `04` degrading the defensibility of any reasonable-supervision defense. The most immediate US exposure is not an AI statute at all: it is discovery and records law meeting a non-enumerable vendor-held memory (`08`).
+No horizontal federal AI statute governs this deployment. The exposure is composed of existing law hitting new facts: sectoral regulators (FINRA and SEC books-and-records and supervision duties are acutely relevant, since channel-agent output in a broker-dealer's Slack is likely a record subject to retention and supervision), state laws (Colorado, the bellwether, repealed and replaced its 2024 AI Act before it ever took effect: SB 26-189, signed 14 May 2026 and effective 1 January 2027, replaces the duty-of-care, risk-management and impact-assessment framework with disclosure duties around automated decision-making technology that materially influences consequential decisions, so drifted HR uses remain captured but through notice obligations rather than governance mandates, and the drift determination still requires knowing what channels actually do; Illinois BIPA-style statutes if any biometric-adjacent processing occurs), FTC Section 5 for deceptive or unfair practices, and common-law negligence with the internal-accountability collapse of `04` degrading the defensibility of any reasonable-supervision defense. The most immediate US exposure is not an AI statute at all: it is discovery and records law meeting a non-enumerable vendor-held memory (`08`).
 
 ## D. Cross-cutting observation
 
