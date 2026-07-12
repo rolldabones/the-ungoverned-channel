@@ -2,6 +2,19 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.1.1] · 2026-07-12 · Link verification patch
+
+### Corrected (prior claims superseded, marked in place)
+- **Mitiga day-level dates.** v1.1.0 claimed 12 and 20 May 2026 from a cached blog listing. The vendor's listing re-dates posts between accesses (22 June and 7 July 2026 as of 12 July); trade press fixes the token-theft chain no later than 5 June 2026 and the Slack demonstration no later than 27 June 2026. `02` now claims the May–June window with day-level dates held as Unknown / Insufficient data; `06` §A adjusted to match; correction appended in `02`.
+- **Item 28 re-attributed.** The "Security Boulevard" piece is a Grip Security vendor blog post syndicated through Security Boulevard; now labeled as such and cited only for the service-account framing.
+
+### Added
+- New Tier 3 source: Anthropic's Claude Code in Slack documentation, whose caution that Claude "may follow directions from other messages in the context" is added to `06` §A as vendor corroboration of the untrusted-input posture.
+- Verified direct links added for the Mitiga token-theft post, the Ken Huang MAESTRO analysis, the Deriv teardown (exact title) and the Tessl item (exact title). Every entry in `13-sources.md` now carries a verified link or an explicit dating caveat.
+
+### Unchanged
+- All other files retain their prior stamps. No open question resolved; no prediction affected.
+
 ## [1.1.0] · 2026-07-12 · Verification pass and correction release
 
 ### Corrected (prior claims superseded, marked in place)

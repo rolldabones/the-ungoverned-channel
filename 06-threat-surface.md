@@ -1,12 +1,12 @@
 # 06 · Threat Surface
 
-**Status:** [✓ final] · v1.1.0 · 12 July 2026
+**Status:** [✓ final] · v1.1.1 · 12 July 2026
 
 This file records the security dimension only to the depth governance requires: what can go wrong, how it is demonstrated and what the multiplayer setting adds. Full technical treatments exist elsewhere (see MAESTRO analysis and Mitiga research, `13-sources.md`).
 
 ## A. Prompt injection: demonstrated, not hypothetical
 
-The lineage matters. In August 2024, PromptArmor demonstrated injection against Slack AI itself: crafted content in a public channel caused the assistant to exfiltrate data from private channels the attacker could not read. In May 2026, Mitiga published research on the Claude Code and Slack MCP integration: malicious instructions embedded in channel content can cause a Claude agent with channel access to follow the attacker's commands rather than the user's. Two independent demonstrations, less than two years apart, against two vendors, through the same architectural feature: an agent that reads the channel treats the channel as instruction.
+The lineage matters. In August 2024, PromptArmor demonstrated injection against Slack AI itself: crafted content in a public channel caused the assistant to exfiltrate data from private channels the attacker could not read. In May and June 2026, Mitiga published research on the Claude Code and Slack MCP integration: malicious instructions embedded in channel content can cause a Claude agent with channel access to follow the attacker's commands rather than the user's. Two independent demonstrations, less than two years apart, against two vendors, through the same architectural feature: an agent that reads the channel treats the channel as instruction. The vendor's own documentation for the Claude Code in Slack integration concedes the posture, cautioning that Claude "may follow directions from other messages in the context" and should be used only in trusted Slack conversations.
 
 The multiplayer setting multiplies the injectors. In the per-user model the trust question is "do I trust my own inputs." In the channel it is "do I trust every member, every document any member pastes, every message synced from an externally shared channel and every connected data source." The agent has no intent hierarchy among these; an attacker needs to be, or to compromise, or merely to get a document in front of, any one of them. Ambient mode then removes the last gate: the agent reads everything continuously, so the injection does not even need to be adjacent to a tag.
 

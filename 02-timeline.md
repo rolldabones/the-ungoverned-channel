@@ -1,6 +1,6 @@
 # 02 · Timeline
 
-**Status:** [↻ living record, append-only] · v1.1.0 · 12 July 2026
+**Status:** [↻ living record, append-only] · v1.1.1 · 12 July 2026
 
 Entries are dated, sourced (see `13-sources.md`) and never edited after entry; corrections are appended (see Corrections, below).
 
@@ -15,7 +15,7 @@ Entries are dated, sourced (see `13-sources.md`) and never edited after entry; c
 | Dec 2025 | Claude Code in Slack (beta): coding tasks routed from threads to Claude Code sessions, progress posted back | First step from conversation to delegated execution |
 | 22 Jan 2026 | Korea AI Framework Act takes effect | High-impact AI duties, generative AI transparency, MSIT enforcement |
 | 7 May 2026 | Provisional EU trilogue agreement on Digital Omnibus | Annex III high-risk deferral to 2 Dec 2027 signaled |
-| 12–20 May 2026 | Mitiga Labs publishes security research on the Claude Code and Slack MCP integration: interception of MCP OAuth tokens via a rewritten local configuration file (12 May) and a demonstration that channel messages are treated as instructions by a Claude agent reading Slack, with detection guidance (20 May) | Injection and token theft move from analogous precedent to demonstrated against this product family's integration path, weeks before the multiplayer launch |
+| May–Jun 2026 | Mitiga Labs publishes security research on the Claude Code and Slack MCP integration: interception of MCP OAuth tokens via a rewritten local configuration file (reported in trade press 5 June), and a demonstration that channel messages are treated as instructions by a Claude agent reading Slack, with detection guidance (published by 27 June) | Injection and token theft move from analogous precedent to demonstrated against this product family's integration path, contemporaneous with the multiplayer pivot |
 | 16 Jun 2026 | European Parliament formally endorses the Omnibus | |
 | 23 Jun 2026 | Anthropic launches **Claude Tag** in beta for Enterprise and Team: one Claude per channel, persistent channel memory, cross-channel learning where permitted, ambient mode, admin-scoped connectors, organization- and channel-level spend limits, centralized audit console identifying initiating user and tools used. Runs on Opus 4.8. Replaces Claude in Slack; 30-day admin opt-in; forced switchover 3 Aug 2026 | The multiplayer pivot. Unit of deployment becomes the channel |
 | 23–27 Jun 2026 | Post-launch independent analyses (MAESTRO threat model; trade-press security coverage) observe that the channel, not the user, is the effective security boundary and that ambient mode enlarges the reading surface | The security framing of the multiplayer pivot is set within its first week |
@@ -25,5 +25,6 @@ Entries are dated, sourced (see `13-sources.md`) and never edited after entry; c
 ## Corrections
 
 - **v1.1.0 (12 July 2026).** The v1.0.0 entry dated 23–27 Jun 2026 attributed the Mitiga research to that window and to "the Claude and Slack MCP integration" generically. Primary sources establish publication on 12 and 20 May 2026, against the Claude Code and Slack MCP integration specifically, with trade-press reporting on 5 and 27 June 2026. That entry is superseded by the 12–20 May and 23–27 Jun entries above. The v1.0.0 table also placed the PromptArmor demonstration before the EU AI Act's entry into force; the rows are now in date order and the PromptArmor entry is dated precisely (20 Aug 2024). The v1.0.0 phrasing "provider watermarking under Art 50(2): 2 Dec 2026" implied a blanket deferral; the corrected 29 Jun entry records the grace-period structure.
+- **v1.1.1 (12 July 2026).** The v1.1.0 Mitiga entry claimed day-level publication dates (12–20 May 2026) from a cached blog listing. The vendor's listing re-dates posts between accesses (showing 22 June and 7 July 2026 as of 12 July), while trade-press reporting fixes the token-theft chain no later than 5 June 2026 and the Slack demonstration no later than 27 June 2026. The entry above now claims the May–June window only; day-level original publication dates are Unknown / Insufficient data.
 
 Final Liability rests with the Human.
