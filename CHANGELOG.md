@@ -2,6 +2,19 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.3.0] · 2026-07-15 · Ecosystem integration
+
+Repository-metadata release under the repository improvement program. This release sits outside the five substantive update triggers in the README's update protocol, which govern the analysis; it changes repository plumbing only.
+
+### Added
+- README section "Part of the ecosystem" linking the canonical ECOSYSTEM.md in the profile repository plus four nearest neighbors (claude-cowork-legal-onboarding, ai-governance-for-boards, AI-Impact-Assessment-Tool, slow-ai-kitchen), placed after Doctrinal frame.
+
+### Changed
+- README header version and last-updated date.
+
+### Unchanged
+- The analysis itself. No claim, control, prediction or open question is altered by this release. Files 01 through 14 are untouched.
+
 ## [1.2.0] · 2026-07-12 · Positioning and engagement posture
 
 ### Added

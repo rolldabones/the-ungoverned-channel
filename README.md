@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.2.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 12 July 2026 (Asia/Seoul)
+**Version:** 1.3.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 15 July 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -74,6 +74,16 @@ Several of the open questions in `12-open-questions.md` can only ever be resolve
 ## Doctrinal frame
 
 The analysis applies three doctrines developed in the author's broader work: **Slow AI** (governed, explainable, auditable AI adopted at the deployer's pace, not the vendor's), **Final Liability** (ultimate accountability for an AI-assisted outcome attaches to a named human) and **Informed Intent** (a named human authorizes a specified task, with understood tolerances, before the system acts). The case study tests whether this product family can satisfy them. Readers who reject the doctrines can still use the feature-control ledger and the predictions register, which stand on their own.
+
+## Part of the ecosystem
+
+This case study is the field-study layer of a larger body of AI governance, risk management and compliance work. The canonical map of all repositories is [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) in the profile repository.
+
+Nearest neighbors:
+- [claude-cowork-legal-onboarding](https://github.com/rolldabones/claude-cowork-legal-onboarding): the constructive counterpart, a governance kit for an adjacent agentic product on the same platform, built fitness-decision first
+- [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): the jurisdiction guides and board question bank behind file 07 and the approving-executive audience of the enterprise question set
+- [AI-Impact-Assessment-Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool): the pre-deployment assessment gate whose absence this case study documents in the wild
+- [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the method for adopting AI at the deployer's pace rather than the vendor's, which the working thesis puts to the test
 
 ---
 
