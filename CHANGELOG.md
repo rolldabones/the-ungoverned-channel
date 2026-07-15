@@ -2,6 +2,16 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.3.1] · 2026-07-15 · Link-hygiene patch
+
+Repository-metadata patch outside the five substantive update triggers, like v1.3.0.
+
+### Changed
+- Removed the claude-cowork-legal-onboarding entry from the README's Part of the ecosystem section; that repository was retired and deleted by the maintainer on 15 July 2026. Three nearest neighbors remain.
+
+### Unchanged
+- The analysis itself. No claim, control, prediction or open question is altered by this release. Files 01 through 14 are untouched.
+
 ## [1.3.0] · 2026-07-15 · Ecosystem integration
 
 Repository-metadata release under the repository improvement program. This release sits outside the five substantive update triggers in the README's update protocol, which govern the analysis; it changes repository plumbing only.

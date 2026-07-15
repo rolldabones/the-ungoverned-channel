@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.3.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 15 July 2026 (Asia/Seoul)
+**Version:** 1.3.1 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 15 July 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -80,7 +80,6 @@ The analysis applies three doctrines developed in the author's broader work: **S
 This case study is the field-study layer of a larger body of AI governance, risk management and compliance work. The canonical map of all repositories is [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) in the profile repository.
 
 Nearest neighbors:
-- [claude-cowork-legal-onboarding](https://github.com/rolldabones/claude-cowork-legal-onboarding): the constructive counterpart, a governance kit for an adjacent agentic product on the same platform, built fitness-decision first
 - [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): the jurisdiction guides and board question bank behind file 07 and the approving-executive audience of the enterprise question set
 - [AI-Impact-Assessment-Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool): the pre-deployment assessment gate whose absence this case study documents in the wild
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the method for adopting AI at the deployer's pace rather than the vendor's, which the working thesis puts to the test
