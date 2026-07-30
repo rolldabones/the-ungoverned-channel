@@ -1,12 +1,16 @@
 # 07 · Regulatory Mapping
 
-**Status:** [✓ final] · v1.1.0 · 12 July 2026 · Verified against the Digital Omnibus as approved by the Council on 29 June 2026 and against Colorado SB 26-189 as signed 14 May 2026
+**Status:** [✓ final] · v1.1.1 · 30 July 2026 · Verified against the Digital Omnibus as adopted and published, Regulation (EU) 2026/1744, and against Colorado SB 26-189 as signed 14 May 2026
 
 ⚠ This file maps exposure; it is not advice. Jurisdiction-specific questions flagged below require external counsel in the relevant jurisdiction.
 
 ## A. European Union (post-Omnibus)
 
-The Digital Omnibus on AI received the European Parliament's endorsement on 16 June 2026 and the Council's final approval on 29 June 2026, with publication in the Official Journal expected in July 2026 and entry into force three days after publication. The operative timeline for a Slack-agent deployer:
+The Digital Omnibus on AI was adopted as Regulation (EU) 2026/1744 of 8 July 2026, published in the Official Journal on 24 July 2026 (OJ L, 2026/1744, 24.7.2026) and in force since 27 July 2026, the third day after publication. The deferrals below are binding law. The AI Act's general application date of 2 August 2026 is unchanged. The operative timeline for a Slack-agent deployer:
+
+> **Superseded (v1.1.0, 12 July 2026).** This section stated that the Omnibus had received Parliament endorsement and Council approval, with Official Journal publication expected in July 2026 and entry into force three days after publication. That was accurate as written and the expectation held: publication landed on 24 July 2026 and entry into force followed on 27 July 2026. The claim is superseded only in that the deferrals are no longer adopted text awaiting publication.
+
+> **Open, pending substantive review.** The published text does more than defer. The Article 50 marking grace period is cut from six months to three, with a 2 December 2026 deadline, and two new Article 5 prohibitions are added (non-consensual intimate material and child sexual abuse material), both applying from 2 December 2026. Whether either bears on a Slack-agent deployer, and in particular whether the 2 August 2026 row below remains correct in stating that deployer-side Article 50 obligations are unaffected by the Omnibus, is not resolved in this release. It is scoped to the substantive pass that also covers the two appendix instruments in the book repository. ⚠
 
 | Date | Obligation | Relevance to this deployment |
 |---|---|---|

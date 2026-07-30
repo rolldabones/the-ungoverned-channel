@@ -2,6 +2,17 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.3.2] · 2026-07-30 · Regulatory-currency update
+
+Update protocol trigger 3, a regulatory event: adopted text. Currency only. No finding, verdict, prediction or open question is revised.
+
+### Changed
+- 07-regulatory-mapping.md re-dated to v1.1.1 and 30 July 2026. The Digital Omnibus on AI is no longer awaiting Official Journal publication. It was adopted as Regulation (EU) 2026/1744 of 8 July 2026, published on 24 July 2026 (OJ L, 2026/1744, 24.7.2026) and in force since 27 July 2026. The prior claim is marked superseded in the file rather than deleted, per the update protocol. The file status line now records verification against the published regulation.
+- README version and last-updated line moved in lockstep.
+
+### Open
+- Whether the Article 50 marking grace period cut (six months to three, 2 December 2026) and the two new Article 5 prohibitions added by the published text bear on a Slack-agent deployer is flagged in 07-regulatory-mapping.md and not resolved here. It is scoped to a substantive review pass. The 2 August 2026 row in that file, which states that deployer-side Article 50 obligations are unaffected by the Omnibus, is explicitly marked as pending confirmation.
+
 ## [1.3.1] · 2026-07-15 · Link-hygiene patch
 
 Repository-metadata patch outside the five substantive update triggers, like v1.3.0.
