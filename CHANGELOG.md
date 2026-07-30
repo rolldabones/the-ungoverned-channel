@@ -2,6 +2,14 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.3.3] · 2026-07-30 · Open question resolved
+
+Update protocol trigger 3, a regulatory event: substantive review of the adopted text. One open block is closed. No verdict or prediction is revised.
+
+### Changed
+- 07-regulatory-mapping.md to v1.1.2. The open block carried at v1.1.1 is resolved and the prior characterization is marked superseded in place rather than deleted. Two corrections and two answers. Correction: the Article 50 marking transitional period is four months, not a cut from six to three; no six-month grace exists anywhere in Regulation (EU) 2026/1744. The 2 December 2026 deadline was correct. Answer one: the 2 August 2026 row is correct as written, because the Article 50(2) transitional period runs to providers only and only for systems placed on the market before 2 August 2026 (Recital 38), so deployer-side Article 50 obligations are unaffected. Answer two: the new Article 5(1)(ba) and (bb) prohibitions do not bite on a governance-and-summarization deployment, the deployer limb at Article 5(1a)(b) requiring use for the purpose of generating the prohibited material. The residual edge case, whether a deployer offering a general-purpose interface falls within that purpose test where its own users generate such material, is flagged for external counsel and recorded as Unknown. The application date of the prohibitions is recorded as Unknown rather than stated, having not been confirmed against the operative amendment to Article 113.
+- README version and last-updated line moved in lockstep.
+
 ## [1.3.2] · 2026-07-30 · Regulatory-currency update
 
 Update protocol trigger 3, a regulatory event: adopted text. Currency only. No finding, verdict, prediction or open question is revised.
