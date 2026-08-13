@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.3.4 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 13 August 2026 (Asia/Seoul)
+**Version:** 1.4.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 13 August 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
