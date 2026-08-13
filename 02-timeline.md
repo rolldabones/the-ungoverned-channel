@@ -1,6 +1,6 @@
 # 02 · Timeline
 
-**Status:** [↻ living record, append-only] · v1.1.1 · 12 July 2026
+**Status:** [↻ living record, append-only] · v1.2.0 · 13 August 2026 (KST)
 
 Entries are dated, sourced (see `13-sources.md`) and never edited after entry; corrections are appended (see Corrections, below).
 

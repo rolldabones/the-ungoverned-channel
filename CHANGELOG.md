@@ -2,6 +2,13 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.4.1] · 2026-08-13 · Maintenance sweep
+
+Found by the class A to C maintenance sweep, not by reading.
+
+- **13-sources.md:** the Digital Omnibus entry still recorded Official Journal publication as pending. Replaced with the full citation: Regulation (EU) 2026/1744 of 8 July 2026, OJ L, 2026/1744, 24.7.2026, in force 27 July 2026. This was the last "publication pending" claim in the account.
+- **Per-file status lines re-dated** where v1.4.0 changed the file beneath them: 02-timeline to v1.2.0, 11-predictions-register to v1.0.1, 13-sources to v1.1.2. A status line that predates its own body is a currency defect in its own right.
+
 ## [1.4.0] · 2026-08-13 · Living update, with a correction of substance
 
 **Correction, not a currency update.** The study recorded a forced migration of the legacy Claude in Slack app to Claude Tag as scheduled for 3 August 2026, following third-party coverage. **That framing is struck.** Read against the vendor's own migration documentation on 13 August 2026 (KST), Claude Tag replaces the earlier app *in place*: the same Slack app and `@Claude` handle remain, no data migrates, pairing the workspace defaults every scope to New, and Legacy is deprecated on an account-specific cutover date after which Legacy scopes stop responding. There was no blanket automatic conversion on 3 August. The study asserted an event that did not occur in the form described.

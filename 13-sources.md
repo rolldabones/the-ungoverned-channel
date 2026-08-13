@@ -1,12 +1,12 @@
 # 13 · Sources
 
-**Status:** [↻ living record] · v1.1.1 · 12 July 2026
+**Status:** [↻ living record] · v1.1.2 · 13 August 2026 (KST)
 
 Tiered per the authority hierarchy in `01`. Sources are cited in the tier they occupy, not the tier their confidence implies. Accessed 11–12 July 2026 unless noted.
 
 ## Tier 1 · Statute, adopted regulation, institutional acts
 
-1. Regulation (EU) 2024/1689 (EU AI Act); Regulation on the simplification of the implementation of harmonised rules on AI (Digital Omnibus on AI), Council final approval 29 June 2026, Official Journal publication pending as of this version (entry into force three days after publication).
+1. Regulation (EU) 2024/1689 (EU AI Act); **Regulation (EU) 2026/1744** of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI), **OJ L, 2026/1744, 24.7.2026**, ELI http://data.europa.eu/eli/reg/2026/1744/oj, **in force 27 July 2026**.
 2. Council of the EU, "Artificial Intelligence: Council gives final green light to simplify and streamline rules," press release, 29 June 2026. consilium.europa.eu. (Final approval; new high-risk dates 2 Dec 2027 / 2 Aug 2028; Art 50(2) grace period to 2 Dec 2026 for systems on the market before 2 Aug 2026; NCII/CSAM prohibition.)
 3. Council of the EU, press release on provisional agreement, 7 May 2026 (updated 18 May 2026). consilium.europa.eu.
 4. Korea, Framework Act on the Development of Artificial Intelligence and Establishment of Trust, effective 22 January 2026.
