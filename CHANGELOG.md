@@ -2,6 +2,13 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.3.4] · 2026-08-13
+
+License metadata sweep. An `SPDX-License-Identifier: CC-BY-SA-4.0` line and the canonical Creative Commons legal code are now carried inside the existing license file. The filename is unchanged and the human-readable summary is retained above the legal code. This repository stays on ShareAlike as a deliberate openness choice rather than a compatibility requirement.
+
+- The primary audience is automated intake and provenance tooling, which reads the SPDX tag rather than prose. Automated license detection previously reported nothing across all twenty-one repositories in this account.
+- No change to the licence in force. The identifier records what was already true.
+
 ## [1.3.3] · 2026-07-30 · Open question resolved
 
 Update protocol trigger 3, a regulatory event: substantive review of the adopted text. One open block is closed. No verdict or prediction is revised.
