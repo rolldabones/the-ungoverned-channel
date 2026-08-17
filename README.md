@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.4.1 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 13 August 2026 (Asia/Seoul)
+**Version:** 1.4.2 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 17 August 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -25,7 +25,7 @@ This is personal work. The author writes as a concerned user of these tools and 
 
 ## Why a living document
 
-A static memo on a beta product is stale on publication. The vendor's migration deadline (3 August 2026), the EU Digital Omnibus (final Council approval 29 June 2026), the security research cadence and the product's own roadmap all move faster than a publication cycle. This repository therefore versions its claims, registers falsifiable predictions with review dates and logs every change. When the analysis is wrong, the record will show where and when.
+A static memo on a beta product is stale on publication. The vendor's account-specific Legacy deprecation cutover, the EU Digital Omnibus (final Council approval 29 June 2026), the security research cadence and the product's own roadmap all move faster than a publication cycle. This repository therefore versions its claims, registers falsifiable predictions with review dates and logs every change. When the analysis is wrong, the record will show where and when.
 
 ## Structure
 

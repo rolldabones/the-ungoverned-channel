@@ -1,6 +1,8 @@
 # 10 · Verdict, Stress-Tested
 
-**Status:** [✓ final] · v1.0.0 · 11 July 2026
+**Status:** [✓ final] · v1.0.1 · 17 August 2026 (KST)
+
+> **Correction, 17 August 2026 (KST).** This file carried the claim that the legacy Claude in Slack app was force-migrated on 3 August 2026. **That claim is struck.** It was struck in v1.4.0 on 13 August 2026 against the vendor's own migration documentation, and the correction reached `02-timeline.md` and `05-feature-control-ledger.md` but not this file. Claude Tag replaces the earlier app *in place*: the same Slack app and `@Claude` handle remain, no data migrates, pairing the workspace defaults every scope to New, and Legacy is deprecated on an **account-specific** cutover date after which Legacy scopes stop responding. There was no blanket automatic conversion on 3 August 2026.
 
 ## The claim
 
@@ -20,7 +22,7 @@ Ungoverned by default, governance-degrading by design; governable only at a disc
 
 ## The verdict
 
-The categorical claim "ungovernable" fails, and the study is better for its failure: a tool that yields, however expensively, to named ownership, scope minimalism, feature refusal and a rehearsed exit is governable in the only sense the word usefully has. What survives is the population-level claim, which matters more. Governability here is priced in exactly the currency most deployers will not spend: declined features, slowed adoption, standing review functions with no vendor support and controls that must be rebuilt in-house against a 3 August 2026 clock the deployer does not control. The prediction that most deployments will therefore run ungoverned is not cynicism; it is the default configuration plus the deadline plus the discount. The predictions register will keep score.
+The categorical claim "ungovernable" fails, and the study is better for its failure: a tool that yields, however expensively, to named ownership, scope minimalism, feature refusal and a rehearsed exit is governable in the only sense the word usefully has. What survives is the population-level claim, which matters more. Governability here is priced in exactly the currency most deployers will not spend: declined features, slowed adoption, standing review functions with no vendor support and controls that must be rebuilt in-house against a deprecation clock the deployer neither controls nor can see, the Legacy cutover being set per account rather than published. The prediction that most deployments will therefore run ungoverned is not cynicism; it is the default configuration plus the deadline plus the discount. The predictions register will keep score.
 
 One sentence for the board that asked: **the product is governable; your deployment of it, on the vendor's timeline and defaults, will not be.**
 

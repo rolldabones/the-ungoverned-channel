@@ -2,6 +2,20 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.4.2] · 2026-08-17 · Propagation of the v1.4.0 correction
+
+The v1.4.0 correction of substance did not reach every file it contradicted. This release completes it. No new research; nothing here was found by re-reading the product.
+
+- **01-abstract-and-method.md to v1.0.1.** The abstract still read "The legacy app is force-migrated on 3 August 2026". **Struck.** That is the assertion v1.4.0 corrected on 13 August 2026 against the vendor's own migration documentation. A dated correction note is carried at the head of the file and the sentence is recast. This was the study's most exposed instance of the claim: the abstract is the first thing read and the last thing quoted.
+- **10-verdict.md to v1.0.1.** The verdict rested part of its population-level claim on "a 3 August 2026 clock the deployer does not control". **Struck and recast.** The deadline pressure the verdict describes is real but differently shaped: the Legacy deprecation cutover is account-specific rather than public, which is worse for the deployer, not better, and the recast sentence says so. The verdict itself is unchanged and is not re-scored.
+- **07-regulatory-mapping.md to v1.1.3.** Two defects. Its status line read v1.1.2 · 30 July 2026 although v1.4.0 rewrote the DPIA passage beneath it on 13 August; the v1.4.1 per-file re-dating pass covered 02, 11 and 13 and missed this file. Separately, the file recorded the application date of the new Article 5 prohibitions as **Unknown**. That Unknown is now **resolved**: 2 December 2026, per Article 113, third paragraph, point (a), as amended by Article 1, point (40) of Regulation (EU) 2026/1744. The resolution was obtained on 13 August 2026 and was not carried into this file at the time.
+
+- **README.md and 13-sources.md.** Two further survivals of the same struck claim. The README's rationale for versioning cited "the vendor's migration deadline (3 August 2026)" as a driver; recast to the account-specific Legacy deprecation cutover, which is the actual mechanism and a better argument for versioning, since a private deadline cannot be tracked from outside. `13-sources.md` to v1.1.3: source 15 was annotated as stating a "switchover" on 3 August 2026; the annotation is corrected to what the documentation describes.
+
+- **14-enterprise-question-set.md to v1.0.1.** Found by the new class D supersession check, not by reading. E24 rested on "forced migrations" as the vendor-pressure mechanism, which is the framing v1.4.0 recast at ledger row 8. Recast to deprecation cutovers and the account-specific cutover date, which is the actual and worse mechanism. The question and its three resolutions are otherwise unchanged.
+
+**Method note.** All three defects are propagation failures of corrections already made, not new findings. Two of the three sit in files marked [✓ final] at v1.0.0, which is precisely why they were not re-read. A correction that changes a claim must be applied wherever that claim appears, and "final" is not evidence that a file is clean.
+
 ## [1.4.1] · 2026-08-13 · Maintenance sweep
 
 Found by the class A to C maintenance sweep, not by reading.

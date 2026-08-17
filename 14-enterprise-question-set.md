@@ -1,6 +1,6 @@
 # 14 · The Enterprise Question Set: Pre-Deployment Questions for Agentic AI, with Possible Resolutions
 
-**Status:** [↻ living record, work in progress by design] · v1.0.0 · 11 July 2026
+**Status:** [↻ living record, work in progress by design] · v1.0.1 · 17 August 2026 (KST)
 
 ## How to use this file
 
@@ -129,7 +129,7 @@ A useful framing test for any resolution: in a responsibility matrix, the agent 
 *Possible resolutions:* (1) Contract: data disposition on termination specified, evidenced and tested; export rights over anything exportable. (2) Operational: the E18 removal chain doubles as the exit rehearsal. (3) Strategic: organizational knowledge the agent accumulates is deliberately duplicated in systems the organization owns (documentation the agent helps produce belongs in your repositories, not only in its memory), so the memory is a convenience rather than the single copy.
 
 **E24. What happens when the vendor changes the product faster than you can assess it?**
-*Why:* Forced migrations, default changes and beta cadence put deployment timing on the vendor's roadmap; the organization that has not assessed by the deadline runs the new architecture by default (ledger row 8).
+*Why:* Deprecation cutovers, default changes and beta cadence put deployment timing on the vendor's roadmap; the organization that has not assessed by the cutover runs the new architecture by default (ledger row 8). Note the shape of the pressure as recast at v1.4.0: the Legacy deprecation date is set per account rather than published, so the deadline cannot be tracked from outside and a standing owner is the only way to see it coming.
 *Possible resolutions:* (1) Contractual change notice with a defined assessment window, where negotiable. (2) A pre-committed posture, decided in advance and in writing: on any forced change not yet assessed, the deployment is suspended pending assessment rather than continued pending objection. (3) A standing owner for vendor-change monitoring, since changes announced in blog posts do not route themselves to risk functions.
 
 ## J. Value accounting

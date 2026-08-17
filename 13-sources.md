@@ -1,6 +1,6 @@
 # 13 · Sources
 
-**Status:** [↻ living record] · v1.1.2 · 13 August 2026 (KST)
+**Status:** [↻ living record] · v1.1.3 · 17 August 2026 (KST)
 
 Tiered per the authority hierarchy in `01`. Sources are cited in the tier they occupy, not the tier their confidence implies. Accessed 11–12 July 2026 unless noted.
 
@@ -26,7 +26,7 @@ Tiered per the authority hierarchy in `01`. Sources are cited in the tier they o
 12. Anthropic, "Introducing Claude Tag," 23 June 2026. anthropic.com/news/introducing-claude-tag. (Multiplayer identity, channel memory, cross-channel learning, ambient mode, private-channel exclusion, migration and 30-day opt-in, Opus 4.8.)
 13. Anthropic, "Claude and Slack," October 2025. anthropic.com/news/claude-and-slack. (Per-user model, admin approval, connector scoping, private draft review.)
 14. Slack Marketplace, Claude app listing: security and data-handling disclosures, DPA reference, retention pointers. slack.com/marketplace/A08SF47R6P4-claude.
-15. Anthropic Help Center, "Get started with Claude in Slack." support.claude.com/en/articles/11506255-get-started-with-claude-in-slack. (States the 3 August 2026 switchover of Claude in Slack to Claude Tag; legacy app surfaces and admin approval.)
+15. Anthropic Help Center, "Get started with Claude in Slack." support.claude.com/en/articles/11506255-get-started-with-claude-in-slack. (Describes the 3 August 2026 transition of Claude in Slack to Claude Tag. Read on 13 August 2026 (KST), the documented mechanism is in-place replacement with an account-specific Legacy deprecation cutover, not a blanket forced migration on that date; the annotation previously characterised it as a switchover and is corrected. Also covers legacy app surfaces and admin approval.)
 16. Anthropic, Claude Code documentation, "Claude Code in Slack." code.claude.com/docs/en/slack. (Vendor caution that Claude "may follow directions from other messages in the context" and should be used only in trusted Slack conversations; Claude Tag replacement notice.)
 
 ## Tier 4 · Security research
