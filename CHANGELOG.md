@@ -2,6 +2,16 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.4.3] · 2026-09-06 · Citation infrastructure and doctrine citation line
+
+Citation infrastructure, doctrine citation line and lockstep maintenance. Session C of the September 2026 improvement pack, one patch release per repository across all 21 public repositories.
+
+- **`CITATION.cff` added** in the house form settled at D-C1: no `type` field, `version` and `date-released` in lockstep with the README, `license` as the SPDX identifier for this repository's licence, `abstract` taken from this repository's ECOSYSTEM.md role line rather than newly written.
+- **How to Cite block** aligned to this release and pointing at `CITATION.cff`.
+- **Doctrine citation line added** to the Part of the ecosystem section. This repository restates a doctrine and cited DOCTRINE.md nowhere, which is the Class E2 finding the new guards report.
+- **CITATION.cff lockstep lag corrected.** The file carried `version: 1.1.0` and `date-released: 2026-07-12` against a README of `1.4.2`, three minor releases behind. One of the three lags the new Class E3 guard was proved against on the unrepaired tree before this release.
+- All other files in this repository are unchanged byte for byte.
+
 ## [1.4.2] · 2026-08-17 · Propagation of the v1.4.0 correction
 
 The v1.4.0 correction of substance did not reach every file it contradicted. This release completes it. No new research; nothing here was found by re-reading the product.
