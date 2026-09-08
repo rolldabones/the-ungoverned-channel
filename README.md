@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.4.3 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 6 September 2026 (Asia/Seoul)
+**Version:** 1.4.4 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 8 September 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -88,7 +88,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *None*, v1.4.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ungoverned-channel
+> Paik, Son-U Michael. *None*, v1.4.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ungoverned-channel
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

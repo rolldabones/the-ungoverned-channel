@@ -2,6 +2,16 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.4.4] · 2026-09-08 · C7 conditioned on the C6 confirmation
+
+Standing item 15 of `account-maintenance/RUNBOOK.md` §8, registered 7 September 2026 on a reading of the instruments and remediated here. One sentence added to one control. No other file in this repository is changed, and no claim about what removal achieves in law is made or implied anywhere in this release.
+
+- **`09-compensating-controls.md` to v1.0.1. C7 is now conditional on the C6 confirmation.** ~~C7 as published prescribed periodic agent removal and re-admission as memory hygiene on its own terms, and so stood as a control a deployer could record as in place without holding the confirmation C6 requires.~~ **STRUCK.** C6 makes unconfirmed memory disposition on exit a blocking finding rather than a risk acceptance, and `12-open-questions.md` records both the disposition question (Q1) and admin enumerability (Q5) as Unknown / Insufficient data against vendor documentation. A reset schedule run without that confirmation is a schedule of an operation whose effect on memory is unknown. The added sentence states the condition, states that C7 achieves nothing while the condition is unmet, and states that C7 must not be recorded as a control in place in that state. The C7 control text, its rationale and its test are otherwise unchanged.
+- **Status line re-dated** on `09-compensating-controls.md`, whose body this release changes. A status line that predates its own body is a currency defect in its own right.
+- **Version occurrences.** `README.md` masthead and How to Cite block, and `CITATION.cff` `version` and `date-released`, to 1.4.4 and 2026-09-08.
+- **Scope, stated because it was considered and declined.** Removal-as-erasure wording exists in this repository at `05-feature-control-ledger.md` row 2 and `14-enterprise-question-set.md` E11 resolution (2). Neither is touched here. ⚠ Any wording offered as a route to a data subject's erasure right is a representation about a third party's processing and needs vendor confirmation and counsel review before it stands; that is a separate question from whether C7 carries its condition, and widening this release to answer it would have made the representation rather than examined it. `08-privilege-discovery-legal-process.md` was read on 7 September and again on 8 September 2026 and carries no such wording: its only removal reference, at line 19, runs the other way, asking whether routine removal destroys what a preservation duty required be kept. No defect is registered against `08`.
+- **This release rides ahead of standing item 4.** If Claude Tag reaches general availability the study is re-run under that item, and C7 is revisited then: the condition added here is drawn against a product whose memory disposition is undocumented, and a general-availability release that documents it changes the input to this control rather than the control's logic.
+
 ## [1.4.3] · 2026-09-06 · Citation infrastructure and doctrine citation line
 
 Citation infrastructure, doctrine citation line and lockstep maintenance. Session C of the September 2026 improvement pack, one patch release per repository across all 21 public repositories.

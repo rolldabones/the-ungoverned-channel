@@ -1,6 +1,6 @@
 # 09 · Compensating Controls: Conditions of Governability
 
-**Status:** [✓ final] · v1.0.0 · 11 July 2026
+**Status:** [✓ final] · v1.0.1 · 8 September 2026
 
 Each control is stated with its test, because a control that cannot be tested is a wish. Together these are the conditions under which the study's verdict (`10`) concedes governability. They correspond to ledger rows in `05`.
 
@@ -16,7 +16,7 @@ Each control is stated with its test, because a control that cannot be tested is
 
 **C6. Rehearsed Exit** (rows 2, 8). Before deployment, execute and time the full removal procedure: agent out of a channel, connectors revoked, integration terminated, and confirmation of what happens to channel memory at each step. If memory disposition on exit cannot be confirmed, this is a blocking finding, not a risk acceptance. *Test:* a dated runbook with measured elapsed times exists and is re-run semiannually. This is the **Exits** primitive doing its only job: an exit that has never been rehearsed is a diagram.
 
-**C7. Memory hygiene by reset** (row 2). Until enumeration and expiry tooling exists, time-bound accumulated context: periodic agent removal and re-admission on a schedule set per channel sensitivity. The cost is the product's convenience; convenience is the correct thing to spend. *Test:* reset log per channel.
+**C7. Memory hygiene by reset** (row 2). Until enumeration and expiry tooling exists, time-bound accumulated context: periodic agent removal and re-admission on a schedule set per channel sensitivity. The cost is the product's convenience; convenience is the correct thing to spend. C7 is conditional on the C6 confirmation: where what happens to channel memory on removal is unconfirmed (`12-open-questions.md` Q1 and Q5), removal is not known to dispose of anything and the reset schedule achieves nothing, so C7 must not be recorded as a control in place. *Test:* reset log per channel.
 
 **C8. Untrusted-input posture** (rows 6, 7). All channel content is treated as untrusted input to the agent. High-impact actions (merges to protected branches, external sends, record modifications, financial transactions) require human confirmation through a surface outside Slack. *Test:* attempt each high-impact action class in a controlled channel; confirm the out-of-band gate fires.
 
