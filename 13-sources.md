@@ -1,6 +1,6 @@
 # 13 · Sources
 
-**Status:** [↻ living record] · v1.1.3 · 17 August 2026 (KST)
+**Status:** [↻ living record] · v1.2.0 · 15 October 2026 (KST)
 
 Tiered per the authority hierarchy in `01`. Sources are cited in the tier they occupy, not the tier their confidence implies. Accessed 11–12 July 2026 unless noted.
 
@@ -26,8 +26,12 @@ Tiered per the authority hierarchy in `01`. Sources are cited in the tier they o
 12. Anthropic, "Introducing Claude Tag," 23 June 2026. anthropic.com/news/introducing-claude-tag. (Multiplayer identity, channel memory, cross-channel learning, ambient mode, private-channel exclusion, migration and 30-day opt-in, Opus 4.8.)
 13. Anthropic, "Claude and Slack," October 2025. anthropic.com/news/claude-and-slack. (Per-user model, admin approval, connector scoping, private draft review.)
 14. Slack Marketplace, Claude app listing: security and data-handling disclosures, DPA reference, retention pointers. slack.com/marketplace/A08SF47R6P4-claude.
-15. Anthropic Help Center, "Get started with Claude in Slack." support.claude.com/en/articles/11506255-get-started-with-claude-in-slack. (Describes the 3 August 2026 transition of Claude in Slack to Claude Tag. Read on 13 August 2026 (KST), the documented mechanism is in-place replacement with an account-specific Legacy deprecation cutover, not a blanket forced migration on that date; the annotation previously characterised it as a switchover and is corrected. Also covers legacy app surfaces and admin approval.)
+15. Anthropic Help Center, "Get started with Claude in Slack." support.claude.com/en/articles/11506255-get-started-with-claude-in-slack. (Describes the 3 August 2026 transition of Claude in Slack to Claude Tag. Read on 13 August 2026 (KST), the documented mechanism is in-place replacement with an account-specific Legacy deprecation cutover, not a blanket forced migration on that date; the annotation previously characterized it as a switchover and is corrected. Also covers legacy app surfaces and admin approval. **Superseded 15 October 2026 (KST)** as the source for the cutover mechanism by items 31 and 32: the help-center article still read "August 3, 2026" when re-fetched on 15 October 2026, while the migration page records the retirement of the Legacy version on 5 October 2026.)
 16. Anthropic, Claude Code documentation, "Claude Code in Slack." code.claude.com/docs/en/slack. (Vendor caution that Claude "may follow directions from other messages in the context" and should be used only in trusted Slack conversations; Claude Tag replacement notice.)
+
+31. Anthropic, Claude Tag documentation, "Migrate from the earlier Claude in Slack." claude.com/docs/claude-tag/admins/migrate-from-earlier. Read 13 August 2026 (KST) for v1.4.0 and re-read 15 October 2026 (KST). (In-place replacement, no data migrates, default-to-New at pairing; since 5 October 2026 the Legacy version no longer answers in paired workspaces and cannot be re-selected; skills repositories; public beta.)
+32. Anthropic, Claude Tag documentation, "Data lifecycle and deletion." claude.com/docs/claude-tag/concepts/data-lifecycle. Read 15 October 2026 (KST). (What Anthropic stores, including session transcripts holding edited and deleted messages and connected-tool data; no automatic retention period during the beta; `/remove @Claude` deletes nothing; Remove this scope and workspace disconnect delete; memory-files view and Owner deletion of entries; transcripts and memory outside data exports and the Compliance API; deletions audit-logged.)
+33. Anthropic, Claude Tag documentation, "Control when Claude Tag responds." claude.com/docs/claude-tag/users/when-claude-responds. Read 15 October 2026 (KST). (Respond automatically on by default, per channel, no workspace- or organization-wide version; Channel member edits: Block; Claude off by default in channels with guests and in Slack Connect channels; "ambient presence".)
 
 ## Tier 4 · Security research
 
@@ -58,7 +62,8 @@ Windowsnews.ai coverage of Claude Tag was reviewed and excluded: quoted expert c
 
 ## Superseded citation routes
 
-- v1.0.0 cited the PromptArmor demonstration only through Chen et al. (SecAlign); the primary disclosure is now cited directly (item 18).
+- v1.0.0 cited the PromptArmor demonstration only through Chen et al. (SecAlign); the primary disclosure is now cited directly (item 19; this line read "item 18" until 15 October 2026 and is corrected).
+- v1.5.0 (15 October 2026, KST) adds the three vendor pages as items 31 to 33 in Tier 3, out of numerical sequence so that no existing item is renumbered, and marks item 15 superseded as the source for the cutover mechanism.
 - v1.0.0 carried three placeholders ("direct page to be added"): the vendor switchover page (resolved, item 15), the Mitiga primary (resolved, items 17 and 18) and a Reuters item (replaced by items 23 and 25; Reuters quotes reachable through TechRepublic as noted).
 - v1.1.0 dated the Mitiga posts 12 and 20 May 2026 from a cached listing and attributed item 28 to Security Boulevard as trade press; v1.1.1 records the dating instability on the Mitiga listing and re-attributes item 28 as a security-vendor blog syndicated through Security Boulevard.
 

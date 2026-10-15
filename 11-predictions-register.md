@@ -1,24 +1,29 @@
 # 11 · Predictions Register
 
-**Status:** [↻ living record] · v1.0.1 · 13 August 2026 (KST)
+**Status:** [↻ living record] · v1.1.0 · 15 October 2026 (KST)
 
 Rules: each prediction is falsifiable, dated, assigned a confidence level and a review date. Outcomes are recorded whether the prediction survives or not. Predictions are never edited after registration; refinements are registered as new entries. Confidence is the drafter's honest credence, not advocacy. Two entries (P2, P4) are registered *against* the study's thesis on purpose: if the thesis is right, they should mostly fail; if they succeed, the ledger rows they touch get marked superseded.
 
 | ID | Prediction | Confidence | Review date | Falsified by | Outcome |
 |---|---|---|---|---|---|
 | P1 | At least one publicly reported security incident involving prompt injection against a multiplayer channel agent (any vendor) in a production enterprise environment by **3 August 2027** | 80% | 2027-08-03 | No such public report by the date | Open |
-| P2 | Anthropic ships deployer-facing memory governance tooling (enumeration, expiry or per-channel reset) for Claude Tag by **30 June 2027** | 55% | 2027-06-30 | No such tooling documented by the date | Open |
+| P2 | Anthropic ships deployer-facing memory governance tooling (enumeration, expiry or per-channel reset) for Claude Tag by **30 June 2027** | 55% | 2027-06-30 | No such tooling documented by the date | **Confirmed early, 15 October 2026 (KST).** The vendor's data-lifecycle page documents a memory-files view with Owner deletion of entries (enumeration), and **Remove this scope**, which deletes a channel's memory, sessions and transcripts (per-channel reset). Expiry has not shipped: "During the beta there is no automatic retention period." Two of the three disjuncts hold, so the prediction succeeds on its own terms, eight months early. Ledger row 2 is marked superseded in part; the thesis loses the enumerability limb of row 2 and keeps the expiry limb. Source: `13` items 31 and 32 |
 | P3 | A discovery or preservation dispute concerning an AI agent's persistent memory (any vendor) appears in a publicly available court filing or decision by **11 July 2028** | 60% | 2028-07-11 | No such filing surfaces | Open |
-| P4 | Ambient-style proactive behavior becomes default-on for at least one tier of at least one major vendor's channel agent by **31 December 2027** | 50% | 2027-12-31 | All major vendors keep proactive modes opt-in | Open |
+| P4 | Ambient-style proactive behavior becomes default-on for at least one tier of at least one major vendor's channel agent by **31 December 2027** | 50% | 2027-12-31 | All major vendors keep proactive modes opt-in | **Confirmed early, 15 October 2026 (KST).** The vendor's own page states of **Respond automatically**: "The setting is on by default", per channel, with no workspace- or organization-wide version, and names the behavior "Claude's ambient presence". Whether it was default-on at launch on 23 June 2026 is not established from this source, so the register records the date it was read, not the date it became true. Ledger row 4 is narrowed accordingly. Source: `13` item 33 |
 | P5 | An EU data protection authority or Korea's PIPC opens a publicly known inquiry or issues guidance specifically addressing persistent agent memory in workplace tools by **11 July 2028** | 55% | 2028-07-11 | Neither occurs | Open |
 | P6 | A majority of organizations migrated on 3 August 2026 will have completed no documented channel-level risk assessment beforehand. Proxy for review: published survey or incident post-mortem evidence by **3 February 2027** | 75% (with the caveat that clean evidence may never surface; if unmeasurable at review, recorded as Unresolvable, not as a win) | 2027-02-03 | Credible survey evidence of majority pre-migration assessment | Open |
 
 
 > **P6 premise note, 13 August 2026 (KST).** P6 is written against "organizations migrated on 3 August 2026". Verification on 13 August 2026 established that no blanket automatic migration occurred on that date; the mechanism is a default-to-New at workspace pairing plus an account-specific Legacy deprecation cutover. **The prediction is not resolved, withdrawn or re-scored, and its 3 February 2027 review date stands.** What changes is the population it refers to: read "migrated on 3 August 2026" as "switched to the New version, whenever their organization paired or their account cutover fell". Reviewers should note that this widens the population and makes clean survey evidence less likely, which increases the chance of an Unresolvable outcome rather than a win. Recording that now, before the review, rather than discovering it at review.
+
+> **P6 second premise note, 15 October 2026 (KST).** The "account-specific Legacy deprecation cutover" the first note relied on was itself superseded: the vendor retired the Legacy version in every paired workspace on 5 October 2026, a fixed and public date. The population P6 refers to is now closed: every organization paired by 5 October 2026 runs the New version in channels. That makes the population easier to define and no easier to survey. The prediction is not resolved, withdrawn or re-scored; its 3 February 2027 review date stands.
+
+| ID | Prediction | Confidence | Review date | Falsified by | Outcome |
+|---|---|---|---|---|---|
 | P7 | "Named human owner per AI agent instance" or a materially equivalent control appears in a major published framework or standard (ISO, NIST, sectoral regulator) by **11 July 2028** | 45% | 2028-07-11 | No such control appears | Open |
 
 ## Scoring note
 
-The register is honest only if failures are recorded as prominently as successes. On each review date the outcome column is completed, the changelog notes it and any ledger row or verdict language the outcome touches is revised with a visible supersession mark.
+The register is honest only if failures are recorded as prominently as successes. On each review date the outcome column is completed, the changelog notes it and any ledger row or verdict language the outcome touches is revised with a visible supersession mark. An outcome may be recorded before the review date where vendor documentation settles it, as P2 and P4 were on 15 October 2026; the review date is a ceiling, not a floor. P7 sits in its own table below the P6 notes so that it renders; the two tables are one register.
 
 Final Liability rests with the Human.

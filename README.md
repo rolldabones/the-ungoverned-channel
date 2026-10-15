@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.4.4 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 8 September 2026 (Asia/Seoul)
+**Version:** 1.5.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 15 October 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -25,7 +25,7 @@ This is personal work. The author writes as a concerned user of these tools and 
 
 ## Why a living document
 
-A static memo on a beta product is stale on publication. The vendor's account-specific Legacy deprecation cutover, the EU Digital Omnibus (final Council approval 29 June 2026), the security research cadence and the product's own roadmap all move faster than a publication cycle. This repository therefore versions its claims, registers falsifiable predictions with review dates and logs every change. When the analysis is wrong, the record will show where and when.
+A static memo on a beta product is stale on publication. The vendor's retirement of the Legacy version on 5 October 2026 (described in v1.4.x as an account-specific cutover, a framing that lasted eight weeks), the EU Digital Omnibus (final Council approval 29 June 2026), the security research cadence and the product's own roadmap all move faster than a publication cycle. This repository therefore versions its claims, registers falsifiable predictions with review dates and logs every change. When the analysis is wrong, the record will show where and when.
 
 ## Structure
 
@@ -47,7 +47,7 @@ A static memo on a beta product is stale on publication. The vendor's account-sp
 | `14-enterprise-question-set.md` | **Jurisdiction-agnostic, product-agnostic pre-deployment questions (E1–E25) with possible resolutions, for any enterprise assessing agentic AI** |
 | `CHANGELOG.md` | Every change, logged |
 
-Not every reader needs every file. A board member or approving executive: `05`, `10` and `14`. A deploying risk or compliance function: `09`, `12` and `14`. A security team: `03`, `06` and `09`. Counsel: `07` and `08`. A reader with ten minutes: `05`, then the last sentence of `10`.
+Not every reader needs every file. A board member or approving executive: `05`, `10` and `14`. A deploying risk or compliance function: `09`, `12` and `14`. A security team: `03`, `06` and `09`. Counsel: `07` and `08`. A reader with ten minutes: `05`, then the bold sentence closing `10`.
 
 ## Update protocol
 
@@ -88,7 +88,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *None*, v1.4.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ungoverned-channel
+> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ungoverned-channel
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

@@ -1,6 +1,6 @@
 # 14 · The Enterprise Question Set: Pre-Deployment Questions for Agentic AI, with Possible Resolutions
 
-**Status:** [↻ living record, work in progress by design] · v1.0.1 · 17 August 2026 (KST)
+**Status:** [↻ living record, work in progress by design] · v1.0.2 · 15 October 2026 (KST)
 
 ## How to use this file
 
@@ -68,7 +68,7 @@ A useful framing test for any resolution: in a responsibility matrix, the agent 
 
 **E11. How will data-subject-rights style obligations (access, rectification, erasure, whatever your applicable regimes call them) be discharged against agent memory?**
 *Why:* Workspace content is personal data of employees and third parties in most regimes; a memory that cannot be enumerated cannot evidence its own compliance.
-*Possible resolutions:* (1) Contractual: vendor commitments to honor deletion and rectification requests against memory, with evidence. (2) Operational: reset as the blunt instrument that discharges erasure at the cost of everything else retained. (3) Preventive: exclude spaces dense in third-party personal data from agent reach. (4) An impact assessment (whatever your regime names it) before deployment at scale, treating agent memory as its own processing operation rather than an incident of the workspace.
+*Possible resolutions:* (1) Contractual: vendor commitments to honor deletion and rectification requests against memory, with evidence. (2) Operational: ~~reset as the blunt instrument that discharges erasure at the cost of everything else retained~~ [struck v1.5.0: on the product studied, removal and re-admission deletes nothing; the documented deletion is an Owner's scope removal, which also destroys the transcripts, and entry deletion in the memory-files view, after which earlier versions remain stored until the scope's data is deleted. Whether either discharges an erasure right is a question for counsel against the vendor's terms, not a control to record]. (3) Preventive: exclude spaces dense in third-party personal data from agent reach. (4) An impact assessment (whatever your regime names it) before deployment at scale, treating agent memory as its own processing operation rather than an incident of the workspace.
 
 **E12. Can memory be preserved on demand when a dispute or investigation requires it?**
 *Why:* Preservation duties in most legal systems attach on reasonable anticipation of a dispute; a memory system with no hold mechanism makes routine operation (expiry, reset, removal) indistinguishable from spoliation.
@@ -129,7 +129,7 @@ A useful framing test for any resolution: in a responsibility matrix, the agent 
 *Possible resolutions:* (1) Contract: data disposition on termination specified, evidenced and tested; export rights over anything exportable. (2) Operational: the E18 removal chain doubles as the exit rehearsal. (3) Strategic: organizational knowledge the agent accumulates is deliberately duplicated in systems the organization owns (documentation the agent helps produce belongs in your repositories, not only in its memory), so the memory is a convenience rather than the single copy.
 
 **E24. What happens when the vendor changes the product faster than you can assess it?**
-*Why:* Deprecation cutovers, default changes and beta cadence put deployment timing on the vendor's roadmap; the organization that has not assessed by the cutover runs the new architecture by default (ledger row 8). Note the shape of the pressure as recast at v1.4.0: the Legacy deprecation date is set per account rather than published, so the deadline cannot be tracked from outside and a standing owner is the only way to see it coming.
+*Why:* Deprecation cutovers, default changes and beta cadence put deployment timing on the vendor's roadmap; the organization that has not assessed by the cutover runs the new architecture by default (ledger row 8). Note the shape of the pressure as recast at v1.4.0 and again at v1.5.0: ~~the Legacy deprecation date is set per account rather than published~~ the Legacy version was retired in every paired workspace on 5 October 2026, a date the vendor fixed and published in its documentation and nowhere the deployer's change calendar would look, so a standing owner reading the vendor's documentation index is the only way to see the next one coming.
 *Possible resolutions:* (1) Contractual change notice with a defined assessment window, where negotiable. (2) A pre-committed posture, decided in advance and in writing: on any forced change not yet assessed, the deployment is suspended pending assessment rather than continued pending objection. (3) A standing owner for vendor-change monitoring, since changes announced in blog posts do not route themselves to risk functions.
 
 ## J. Value accounting

@@ -1,8 +1,8 @@
 # 01 · Abstract and Method
 
-**Status:** [✓ final] · v1.0.1 · 17 August 2026 (KST)
+**Status:** [✓ final] · v1.0.2 · 15 October 2026 (KST)
 
-> **Correction, 17 August 2026 (KST).** This file carried the claim that the legacy Claude in Slack app was force-migrated on 3 August 2026. **That claim is struck.** It was struck in v1.4.0 on 13 August 2026 against the vendor's own migration documentation, and the correction reached `02-timeline.md` and `05-feature-control-ledger.md` but not this file. Claude Tag replaces the earlier app *in place*: the same Slack app and `@Claude` handle remain, no data migrates, pairing the workspace defaults every scope to New, and Legacy is deprecated on an **account-specific** cutover date after which Legacy scopes stop responding. There was no blanket automatic conversion on 3 August 2026.
+> **Correction, 17 August 2026 (KST).** This file carried the claim that the legacy Claude in Slack app was force-migrated on 3 August 2026. **That claim is struck.** It was struck in v1.4.0 on 13 August 2026 against the vendor's own migration documentation, and the correction reached `02-timeline.md` and `05-feature-control-ledger.md` but not this file. Claude Tag replaces the earlier app *in place*: the same Slack app and `@Claude` handle remain, no data migrates, pairing the workspace defaults every scope to New, and Legacy is deprecated on an ~~**account-specific** cutover date~~ [superseded v1.5.0: the Legacy version was retired in every paired workspace on 5 October 2026, see `02-timeline.md`] after which Legacy scopes stop responding. There was no blanket automatic conversion on 3 August 2026.
 
 ## Abstract
 
@@ -15,7 +15,7 @@ In scope: the deployment layer (identity, access, memory, audit, oversight, exit
 ## Method
 
 1. **Authority hierarchy.** Statute and adopted regulation > official guidance and institutional press releases > vendor documentation > peer-reviewed and reproducible security research > credible trade press > vendor marketing > inference. Claims are tiered in `13-sources.md`. Vendor self-reports (for example the claim that 65 percent of Anthropic's product team code is created through its internal Claude Tag) are recorded as context and given no evidentiary weight.
-2. **Unknowns held as unknowns.** Where a fact cannot be verified (memory disposition on agent removal, audit log retention, Slack Connect interaction with cross-channel learning) it is logged in `12-open-questions.md` as Unknown / Insufficient data. Nothing is filled by inference.
+2. **Unknowns held as unknowns.** Where a fact cannot be verified (Slack Connect interaction with cross-channel learning, durable instruction-planting, role-awareness; memory disposition on agent removal and audit retention were resolved against vendor documentation on 15 October 2026) it is logged in `12-open-questions.md` as Unknown / Insufficient data. Nothing is filled by inference.
 3. **Falsifiability.** The study registers predictions with confidence levels and review dates (`11-predictions-register.md`). A case study that cannot be wrong is marketing.
 4. **Version discipline.** Every change is logged. Superseded claims are marked, not deleted.
 
