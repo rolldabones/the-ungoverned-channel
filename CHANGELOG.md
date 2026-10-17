@@ -2,6 +2,17 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.1] · 2026-10-17 · Editorial patch: doctrine short forms and house style
+
+Session T3 of the whole-account review of 15 October 2026 (KST); review doc sections 1 and 8, reviewer report 15. An editorial patch outside the update protocol's five triggers, made under the account's review: no claim, prediction, score, control or question changes, and nothing is superseded.
+
+- **README, Doctrinal frame.** The three doctrine glosses now carry the short forms of DOCTRINE.md v1.2.0 section 8. The Slow AI gloss had read "adopted at the deployer's pace, not the vendor's", a tempo rule the canon does not state (DOCTRINE.md section 1: "not a speed limit"); the case study's own question about the timing of vendor change is kept, stated as a question about whether the three tests can be met. The Informed Intent gloss ("a named human authorizes a specified task, with understood tolerances") now names the four elements and the authorizer conditions; the Final Liability gloss names the three attributes.
+- **README, Part of the ecosystem** names the-ai-generalist, which names this repository (ECOSYSTEM.md protocol item 9).
+- **`07-regulatory-mapping.md` to v1.1.5**: "behaviour" and "categorisation" in US spelling; the GDPR Article 35(1) test, bold inside a bold sentence and so rendered broken, is set in italics; the Art 50(3) gloss is put in parentheses so the sentence carries no serial comma; "catalogue" reads "catalog".
+- **`08-privilege-discovery-legal-process.md` to v1.1.1** and **`09-compensating-controls.md` to v1.1.1**: three serial commas removed and "catalogue" reads "catalog".
+- Recorded and not edited: the Article 50 row's struck "arguably discharges" sentence (doc section 1) was already re-rowed to "evidences" in v1.5.0, and the struck text stays visible under the protocol; the raw-pipe tables in `05` and `11` and the How to Cite title (reviewer report 15, items B3 and A-series) were already correct in v1.5.0; "harmonised" in `13-sources.md` is the Regulation's own title and stays.
+- README version line and How to Cite to 1.5.1 and `CITATION.cff` to 1.5.1 in lockstep. The closing line is added, last, to this changelog.
+
 ## [1.5.0] · 2026-10-15 · Vendor re-run under update protocol trigger 1
 
 Session T1 of the whole-account review of 15 October 2026 (KST). Three vendor pages read that day settle four open questions, score two predictions early and supersede the v1.4.0 account of the Legacy cutover. Fifteen files move, twelve of them content files; every superseded claim is marked in place and nothing is deleted. The v1.4.4 scope note, which declined to touch the removal-as-erasure wording at ledger row 2 and E11 without vendor confirmation, is discharged: the confirmation exists and says removal erases nothing.
@@ -176,3 +187,7 @@ Repository-metadata release under the repository improvement program. This relea
 ### Next scheduled events
 - 3 August 2026: forced migration date (timeline entry pending outcome).
 - 3 February 2027: first prediction review (P6).
+
+---
+
+Final Liability rests with the Human.

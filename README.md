@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.5.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 15 October 2026 (Asia/Seoul)
+**Version:** 1.5.1 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 17 October 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -73,7 +73,7 @@ Several of the open questions in `12-open-questions.md` can only ever be resolve
 
 ## Doctrinal frame
 
-The analysis applies three doctrines developed in the author's broader work: **Slow AI** (governed, explainable, auditable AI adopted at the deployer's pace, not the vendor's), **Final Liability** (ultimate accountability for an AI-assisted outcome attaches to a named human) and **Informed Intent** (a named human authorizes a specified task, with understood tolerances, before the system acts). The case study tests whether this product family can satisfy them. Readers who reject the doctrines can still use the feature-control ledger and the predictions register, which stand on their own.
+The analysis applies three doctrines developed in the author's broader work: **Slow AI** (AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit), **Final Liability rests with the Human** (every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene) and **Informed Intent** (no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions). The forms are the short forms of [DOCTRINE.md section 8](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md#8-short-forms). The case study tests whether this product family can satisfy them, and in particular whether a deployer can meet the three tests of Slow AI when the vendor sets the timing of change. Readers who reject the doctrines can still use the feature-control ledger and the predictions register, which stand on their own.
 
 ## Part of the ecosystem
 
@@ -85,10 +85,11 @@ Nearest neighbors:
 - [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): the jurisdiction guides and board question bank behind file 07 and the approving-executive audience of the enterprise question set
 - [AI-Impact-Assessment-Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool): the pre-deployment assessment gate whose absence this case study documents in the wild
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the method for adopting AI at the deployer's pace rather than the vendor's, which the working thesis puts to the test
+- [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist): the one-day workshop that teaches the minimum control set whose absence this case study records
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ungoverned-channel
+> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ungoverned-channel
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

@@ -1,6 +1,6 @@
 # 08 · Privilege, Discovery and Legal Process
 
-**Status:** [✓ final] · v1.1.0 · 15 October 2026 (KST)
+**Status:** [✓ final] · v1.1.1 · 17 October 2026 (KST) · one serial comma removed 17 October 2026, no claim changed
 
 > **Re-check note, 15 October 2026 (KST).** Section B is extended against the vendor's *Data lifecycle and deletion* page (`13` item 32). The study had treated the memory as the novel object and the transcript as an ordinary Slack record. The vendor-held session transcript is a second object of its own kind, and the three operational questions in B are answered against the page.
 
@@ -24,6 +24,6 @@ Separately: agent outputs posted in channels are ordinary Slack records and are 
 
 ## C. Regulated-records regimes
 
-For financial services deployers, supervision and record-keeping rules (SEC 17a-4, FINRA supervision, and analogous regimes elsewhere) apply to business communications in Slack today; an agent that generates business communications at scale multiplies the retention surface, and an ambient agent that initiates communications creates records no human decided to make. Whether existing archiving connectors capture agent-initiated messages identically to human messages should be verified per deployment, not assumed. ⚠
+For financial services deployers, supervision and record-keeping rules (SEC 17a-4, FINRA supervision and analogous regimes elsewhere) apply to business communications in Slack today; an agent that generates business communications at scale multiplies the retention surface, and an ambient agent that initiates communications creates records no human decided to make. Whether existing archiving connectors capture agent-initiated messages identically to human messages should be verified per deployment, not assumed. ⚠
 
 Final Liability rests with the Human.
