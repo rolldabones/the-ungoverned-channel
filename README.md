@@ -25,7 +25,7 @@ This is personal work. The author writes as a concerned user of these tools and 
 
 ## Why a living document
 
-A static memo on a beta product is stale on publication. The vendor's retirement of the Legacy version on 5 October 2026 (described in v1.4.x as an account-specific cutover, a framing that lasted eight weeks), the EU Digital Omnibus (final Council approval 29 June 2026), the security research cadence and the product's own roadmap all move faster than a publication cycle. This repository therefore versions its claims, registers falsifiable predictions with review dates and logs every change. When the analysis is wrong, the record will show where and when.
+A static memo on a beta product is stale on publication. The vendor's retirement of the Legacy version on 5 October 2026 (described in v1.4.x as an account-specific cutover, a framing that lasted eight weeks), the EU Digital Omnibus ([Regulation (EU) 2026/1744](http://data.europa.eu/eli/reg/2026/1744/oj), in force 27 July 2026), the security research cadence and the product's own roadmap all move faster than a publication cycle. This repository therefore versions its claims, registers falsifiable predictions with review dates and logs every change. When the analysis is wrong, the record will show where and when.
 
 ## Structure
 
@@ -84,7 +84,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 Nearest neighbors:
 - [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): the jurisdiction guides and board question bank behind file 07 and the approving-executive audience of the enterprise question set
 - [AI-Impact-Assessment-Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool): the pre-deployment assessment gate whose absence this case study documents in the wild
-- [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the method for adopting AI at the deployer's pace rather than the vendor's, which the working thesis puts to the test
+- [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the practice method for **Slow AI**, in the short form of the Doctrinal frame above, which the working thesis puts to the test
 - [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist): the one-day workshop that teaches the minimum control set whose absence this case study records
 
 ## How to Cite

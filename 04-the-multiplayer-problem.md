@@ -8,7 +8,7 @@ This is the center of the case study. The question is what changes, as a matter 
 
 Request-level attribution exists. The audit console records which user initiated each request and which tools the agent used. If User A tags @Claude and the agent deletes the wrong branch, the log shows A asked.
 
-Output-level accountability does not exist, and cannot be reconstructed from request-level logs. A finished work product in a multiplayer channel is a function of at least five inputs: (1) the initiating instruction, (2) mid-thread corrections and additions from other members, (3) connected data sources the agent consulted, (4) the agent's accumulated channel memory, which no one can enumerate, and (5) the model's own non-deterministic generation. The mapping from output back to responsible human contribution is therefore not merely unlogged; it is not well defined. Ask "who is accountable for this deliverable as shipped" and the honest answer is a weighted set of people plus a memory state that no longer exists.
+Output-level accountability does not exist, and cannot be reconstructed from request-level logs. A finished work product in a multiplayer channel is a function of at least five inputs: (1) the initiating instruction, (2) mid-thread corrections and additions from other members, (3) connected data sources the agent consulted, (4) the agent's accumulated channel memory, ~~which no one can enumerate~~ [superseded 20 October 2026: an Owner can view its current memory files (`12` Q5)], and (5) the model's own non-deterministic generation. The mapping from output back to responsible human contribution is therefore not merely unlogged; it is not well defined. Ask "who is accountable for this deliverable as shipped" and the honest answer is a weighted set of people plus a memory state that no longer exists.
 
 The counterargument must be met squarely: human teams also produce composite outputs, and organizations handle this with document ownership, review gates and sign-off. True. But three things distinguish the agentic case. The human contributor whose input was decisive can be identified, questioned and deposed; the agent's decisive "contribution" (its memory state at generation time) cannot be. Human contribution is bounded by what each person actually knew; the agent's contribution draws on a context pool no participant possesses. And the human composite is assembled through checkpoints an organization designed; the agentic composite is assembled inside the model, between checkpoints. Document-ownership discipline is the right instinct, which is why `09-compensating-controls.md` rebuilds it by policy as a named owner per channel. The point is that the product does not supply it and the audit trail cannot substitute for it.
 
@@ -24,7 +24,7 @@ The social-psychological finding that responsibility diffuses with the number of
 
 ## D. Authority ambiguity
 
-A shared agent serves principals whose instructions conflict. User A sets a direction; User B, three hours later, modifies it; the agent proceeds on B's modification. Whose intent governs? The product resolves the question by recency, which is not an authority model: in human organizations, whether B may countermand A depends on role, seniority and mandate, none of which the agent can see. The channel flattens hierarchy that the organization's accountability structure depends on. This also creates a quiet override surface: any channel member can redirect work that another member believes is proceeding under their instruction, and the redirect looks like collaboration.
+A shared agent serves principals whose instructions conflict. User A sets a direction; User B, three hours later, modifies it; the agent proceeds on B's modification. Whose intent governs? ~~The product resolves~~ [Restated 20 October 2026 as an assumption pending `12` Q10.] On the study's working assumption, which `12` Q10 holds as Unknown, the product resolves the question by recency, which is not an authority model: in human organizations, whether B may countermand A depends on role, seniority and mandate, none of which the agent can see. The channel flattens hierarchy that the organization's accountability structure depends on. This also creates a quiet override surface: any channel member can redirect work that another member believes is proceeding under their instruction, and the redirect looks like collaboration.
 
 ## E. Consensus laundering
 
@@ -32,9 +32,9 @@ In group deliberation, an agent's output acquires an authority it has not earned
 
 ## F. What is genuinely new here
 
-Enterprises have governed shared instruments before: service accounts, RPA bots, Slackbot workflows, shared mailboxes. Most of the identity-governance playbook transfers, and `09` uses it. Five properties do not transfer:
+Enterprises have governed shared instruments before: service accounts, robotic process automation (RPA) bots, Slackbot workflows, shared mailboxes. Most of the identity-governance playbook transfers, and `09` uses it. Five properties do not transfer:
 
-1. **Persistent, non-enumerable memory.** A service account has credentials, not a worldview.
+1. **Persistent, ~~non-enumerable~~ memory** [superseded 20 October 2026: enumerable by an Owner (`12` Q5); earlier memory versions and the session transcripts remain stored with the vendor until the scope's data is deleted]. A service account has credentials, not a worldview.
 2. **Initiative.** RPA executes defined triggers; ambient mode invents its own.
 3. **Natural language as the control plane.** Every message in the channel is potentially an instruction, which makes every channel member, and every document they paste, part of the attack surface (`06`).
 4. **Non-determinism.** The same instruction does not reproduce the same output, which breaks replay-based audit.

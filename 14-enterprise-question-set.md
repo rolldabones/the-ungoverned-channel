@@ -6,7 +6,7 @@
 
 This file generalizes the case study. The questions below are deliberately **jurisdiction agnostic and product agnostic**: they apply to any persistent, multi-user, tool-connected AI agent deployed into a shared workspace, whatever the vendor and wherever the enterprise operates. Claude Tag is the occasion for the list, not its limit. Where a question touches law, it is framed against "the regimes applicable to you" rather than any named statute; map it to your jurisdictions with counsel.
 
-Each entry gives the question, why it matters in one or two sentences, and possible resolutions. Resolutions are **options with tradeoffs, not recommendations**; the right choice depends on the organization's risk appetite, sector and use case. Where several options are listed, they are ordered roughly from most restrictive to most permissive. A question answered "we have not decided" is a finding; a question that cannot be answered even in principle with the product as shipped is a blocking finding or a documented risk acceptance at the level of authority that owns the consequence.
+Each entry gives the question, why it matters in one or two sentences and possible resolutions. Resolutions are **options with tradeoffs, not recommendations**; the right choice depends on the organization's risk appetite, sector and use case. Where several options are listed, they are ordered roughly from most restrictive to most permissive. A question answered "we have not decided" is a finding; a question that cannot be answered even in principle with the product as shipped is a blocking finding or a documented risk acceptance at the level of authority that owns the consequence.
 
 This is a living list. Questions will be added, refined and marked superseded as the field's experience accumulates. Contributions of questions from deployment experience are the most valuable kind.
 
@@ -62,9 +62,9 @@ A useful framing test for any resolution: in a responsibility matrix, the agent 
 
 ## D. Memory and data lifecycle
 
-**E10. What does the agent retain, where, for how long, and can you enumerate it?**
+**E10. What does the agent retain, where and for how long, and can you enumerate it?**
 *Why:* Persistent memory is a vendor-held, potentially non-enumerable record of organizational knowledge; behavior conditioned on it cannot be reconstructed, and obligations cannot be discharged against contents that cannot be listed (ledger row 2).
-*Possible resolutions:* (1) Vendor diligence before deployment: retention terms, enumeration and inspection tooling, expiry controls, disposition on removal (the Q1 and Q5 questions, generalized to any vendor). (2) Where enumeration does not exist: periodic reset by removal and re-admission, on a schedule set by space sensitivity, accepting the loss of the feature's value. (3) Data classification gates: the agent is simply never admitted where the most sensitive classes live. In practice (1) determines whether (2) and (3) are supplements or the entire program.
+*Possible resolutions:* (1) Vendor diligence before deployment: retention terms, enumeration and inspection tooling, expiry controls, disposition on removal (the Q1 and Q5 questions, generalized to any vendor). (2) Where enumeration does not exist: periodic reset by removal and re-admission, on a schedule set by space sensitivity, accepting the loss of the feature's value [annotated 20 October 2026: void on the product studied, where removal and re-admission deletes nothing (`12` Q1); confirm what removal deletes on any product before relying on this option]. (3) Data classification gates: the agent is simply never admitted where the most sensitive classes live. In practice (1) determines whether (2) and (3) are supplements or the entire program.
 
 **E11. How will data-subject-rights style obligations (access, rectification, erasure, whatever your applicable regimes call them) be discharged against agent memory?**
 *Why:* Workspace content is personal data of employees and third parties in most regimes; a memory that cannot be enumerated cannot evidence its own compliance.
@@ -72,7 +72,7 @@ A useful framing test for any resolution: in a responsibility matrix, the agent 
 
 **E12. Can memory be preserved on demand when a dispute or investigation requires it?**
 *Why:* Preservation duties in most legal systems attach on reasonable anticipation of a dispute; a memory system with no hold mechanism makes routine operation (expiry, reset, removal) indistinguishable from spoliation.
-*Possible resolutions:* (1) Vendor hold mechanism, contractually required and tested. (2) Snapshot-by-export where any export capability exists, on a defined trigger. (3) Where neither exists: document the gap formally, suspend resets for affected spaces on hold triggers, and keep the agent out of dispute-prone spaces (active claims, investigations, contentious counterparties). The formal documentation matters: a gap identified before the dispute is a limitation; one discovered during it is negligence.
+*Possible resolutions:* (1) Vendor hold mechanism, contractually required and tested. (2) Snapshot-by-export where any export capability exists, on a defined trigger. (3) Where neither exists: document the gap formally, suspend resets for affected spaces on hold triggers [annotated 20 October 2026: on the product studied removal and re-admission deletes nothing (`12` Q1), so the act to suspend there is an Owner's scope removal], and keep the agent out of dispute-prone spaces (active claims, investigations, contentious counterparties). The formal documentation matters: a gap identified before the dispute is a limitation; one discovered during it is negligence.
 
 **E13. Does the agent cross contexts your organization deliberately keeps apart?**
 *Why:* Cross-context synthesis is the product's value and the organization's information barriers with the sign flipped (`04.F`); the failure produces no log entry that looks like a failure (`06.B`).

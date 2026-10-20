@@ -9,7 +9,7 @@ Claude Tag is a persistent agent that joins Slack channels as a team member unde
 Three properties define the governance object:
 
 1. **Shared identity.** One Claude per channel serves every member. There is no per-user agent instance in the channel context.
-2. **Persistent memory.** Context accumulates across sessions and users. The agent's behavior at time T is a function of everything it has read up to T, which no one can enumerate.
+2. **Persistent memory.** Context accumulates across sessions and users. The agent's behavior at time T is a function of everything it has read up to T, ~~which no one can enumerate~~ [superseded 20 October 2026: an Owner can view and delete memory-file entries (`12` Q5); what stays beyond the deployer's reach is the session transcripts, which cannot be deleted per thread, and the earlier memory versions stored until the scope's data is deleted].
 3. **Initiative.** In ambient mode, the trigger for action is the agent's own judgment of relevance, not a human instruction.
 
 ## Control surfaces the vendor provides
@@ -23,10 +23,10 @@ Recording these accurately matters, because the study's thesis is not that contr
 | Connector scoping | Tool access (repos, docs, email, SaaS) is admin-granted | Scopes are static grants, not task-scoped or time-boxed |
 | Spend limits | Token spend caps set at organization and channel level; work that would exceed a cap is declined | A budget control, not a conduct control: it bounds the cost of misuse, not its occurrence |
 | Private channel exclusion | Cross-channel learning does not report from private channels (vendor statement) | Public channel content, including pasted confidential material, is in scope |
-| Ambient mode toggle | Off/on per configuration; vendor launch guidance reportedly recommends starting with ambient disabled | Default posture and per-channel granularity: see `12-open-questions.md` |
-| Draft-privately review (legacy app) | Public-thread drafts shown to the requester before posting | Applies to the per-user flow; the agentic multi-stage flow posts work products directly |
-| Centralized audit console | Logs which user initiated each request and what tools the agent used | Does not capture memory state, does not make outputs reproducible, retention unverified |
-| Data handling | Commercial Slack data handled per Anthropic's DPA; not used for training by default | Vendor-held memory remains non-enumerable by the deployer |
+| Ambient mode toggle | ~~Off/on per configuration; vendor launch guidance reportedly recommends starting with ambient disabled~~ [superseded 20 October 2026: the vendor setting **Respond automatically** is on by default, per channel (`12` Q4)] | ~~Default posture and per-channel granularity: see `12-open-questions.md`~~ [resolved, `12` Q4]: there is no workspace- or organization-wide version, and any channel member can change it by asking Claude unless an Owner sets **Channel member edits** to Block |
+| Draft-privately review (legacy app) [superseded 20 October 2026: the legacy app no longer answers in channels of paired workspaces since 5 October 2026, see `02-timeline.md`] | Public-thread drafts shown to the requester before posting | Applies to the per-user flow; the agentic multi-stage flow posts work products directly |
+| Centralized audit console | Logs which user initiated each request and what tools the agent used | Does not capture memory state, does not make outputs reproducible, ~~retention unverified~~ [20 October 2026: retention and export of the activity log remain Unknown; `12` Q2 is partly resolved, for transcripts and memory only] |
+| Data handling | Commercial Slack data handled per Anthropic's data processing agreement (DPA); not used for training by default | ~~Vendor-held memory remains non-enumerable by the deployer~~ [superseded 20 October 2026: memory files are enumerable by an Owner (`12` Q5)]. Session transcripts cannot be deleted per thread, earlier memory versions remain stored until the scope's data is deleted, and neither transcripts nor memory are in the organization's data exports (`12` Q2) |
 
 ## The architectural observation that organizes everything else
 
