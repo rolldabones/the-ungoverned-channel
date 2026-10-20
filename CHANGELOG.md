@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.2] · 2026-10-20 · License text corrected against the Creative Commons legal code
+
+- LICENSE: two defects against the Creative Commons legal code corrected (the space in 'ShareAlike. In'; the CC0 sentence of the closing notice). Operative terms unchanged.
+- README masthead, How to Cite and `CITATION.cff` to v1.5.2. Outside the update protocol's five triggers; no finding of the study changes.
+
 ## [1.5.1] · 2026-10-17 · Editorial patch: doctrine short forms and house style
 
 Session T3 of the whole-account review of 15 October 2026 (KST); review doc sections 1 and 8, reviewer report 15. An editorial patch outside the update protocol's five triggers, made under the account's review: no claim, prediction, score, control or question changes, and nothing is superseded.
