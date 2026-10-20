@@ -1,6 +1,6 @@
 # 09 · Compensating Controls: Conditions of Governability
 
-**Status:** [✓ final] · v1.1.1 · 17 October 2026 (KST) · house style corrected 17 October 2026 (two serial commas, one US spelling), no control changed
+**Status:** [✓ final] · v1.1.2 · 20 October 2026 (KST)
 
 > **Re-check note, 15 October 2026 (KST).** C2, C3 and C7 are rebuilt against the vendor's data-lifecycle and response-control pages read that day (`12` Q1, Q4, Q5 resolved); C11 is added so that ledger rows 10 and 11 have controls. The 8 September 2026 condition on C7 is discharged: what removal achieves is now documented, and it is nothing.
 

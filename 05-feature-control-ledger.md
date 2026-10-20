@@ -1,6 +1,6 @@
 # 05 · The Feature-Control Ledger
 
-**Status:** [✓ final] · v1.2.0 · re-checked against first-party product documentation 15 October 2026 (KST)
+**Status:** [✓ final] · v1.2.1 · 20 October 2026 (KST) · re-checked against first-party product documentation 15 October 2026 (KST)
 
 > **Re-check note, 15 October 2026 (KST), update protocol trigger 1.** Three vendor pages were read this day: *Migrate from the earlier Claude in Slack* (claude.com/docs/claude-tag/admins/migrate-from-earlier), *Data lifecycle and deletion* (claude.com/docs/claude-tag/concepts/data-lifecycle) and *Control when Claude Tag responds* (claude.com/docs/claude-tag/users/when-claude-responds). Four rows move.
 >

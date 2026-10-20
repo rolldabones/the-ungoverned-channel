@@ -2,6 +2,23 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.3] · 2026-10-20 · Patch: review corrections
+
+Independent review of 20 October 2026; changes made with Claude, approved by Michael Paik. Every superseded claim is struck in place with a dated note, and nothing is deleted.
+
+- **Withdrawn claim propagated.** The pre-v1.5.0 claim that channel memory is non-enumerable is struck wherever it survived (`03`, `04`, `06`, `07`); the erasure and discovery point now rests on session transcripts, which cannot be deleted per thread, and on earlier memory versions, stored until the scope's data is deleted (UNG-01).
+- **Predictions register.** P4 is registered for the thesis, not against it (`11`, `10`, `05`), and its outcome reads "Confirmed early (inferred)", with the inference stated (UNG-02, UNG-03).
+- **Open questions and architecture.** Q2 re-marked partly resolved: activity-log retention and export remain Unknown and C10 rests on that Unknown; Q3 narrowed from the response page; `03` control rows re-checked against Q2 and Q4 and the legacy draft review marked superseded; `04.D` stated as an assumption pending Q10 (UNG-04, UNG-05, UNG-06, UNG-20).
+- **Law corrected against primary text.** Art 4 to the text in force since 27 July 2026; Art 111(4) cited as the operative provision for the Art 50(2) transition; the Art 50(4) law-enforcement exception added; Korea's fine pinpoints (Act Art 43; Enforcement Decree Art 32 and Annex 2) and the MSIT grace period of at least one year added; Colorado SB 26-189 described as a repeal and reenactment effective 1 January 2027 with notice, explanation, correction and human-review rights; the Omnibus cited as Regulation (EU) 2026/1744 in the README and `01`; "Article 113(3)" no longer called wrong, "third paragraph" kept as the preferred form (UNG-07, UNG-12, UNG-13, UNG-14, UNG-15, UNG-16, UNG-18, X-02).
+- **Controls and question set.** The C2 test covers channel managers, whom Block does not bind; E10 resolution (2) and E12 resolution (3) annotated as void on the product studied (UNG-10, UNG-21).
+- **Timeline and sources.** The entry rule restated to match the in-place supersession practice; Corrections in date order with a dated review entry sourcing Slack's 2024 patch to The Register (item 26); a 24 Jul 2026 row for Official Journal publication; item 15's supersession pointer and stale "August 3" note corrected (UNG-17, UNG-19, UNG-27, UNG-28).
+- **Doctrine forms.** Doctrine glosses in `05`, `07` and the README neighbor line conformed to the DOCTRINE.md section 8 sentence and list forms; no other compression remains in the repository (UNG-09, X-01).
+- **Citation and attribution.** How to Cite drops the publisher: this is personal work, as the README's capacity statement says (UNG-08). The US privilege paragraph in `08.A` is marked as unsourced analysis (UNG-11).
+- **Readability and house style.** `07` status line shortened to version, date and verification basis; the `05` re-check note set as a list; acronyms spelled out at first use in each file; two serial commas removed (UNG-22, UNG-24, UNG-25).
+- **Process references in earlier entries, defined (UNG-23).** Shipped entries stay as cut. In them, "Session T1" and "Session T3" are working sessions of the author's account-wide review of 15 October 2026; "reviewer report 15" is that review's report on this repository; "Standing item 15 of `account-maintenance/RUNBOOK.md` §8" is an entry in the author's maintenance runbook for the account; "the house form settled at D-C1" is the account's agreed format for `CITATION.cff` files; "Class E2" and "Class E3" are categories of the account's automated consistency check (a restated doctrine with no citation of DOCTRINE.md, and version lockstep between the README and `CITATION.cff`).
+- **Not changed.** UK spellings in shipped entries of this changelog stay as cut (UNG-26).
+- **Version occurrences.** README masthead and How to Cite, and `CITATION.cff` `version`, to 1.5.3; `date-released` stays 2026-10-20. Per-file status lines bumped and re-dated on every file whose body changed.
+
 ## [1.5.2] · 2026-10-20 · License text corrected against the Creative Commons legal code
 
 - LICENSE: two defects against the Creative Commons legal code corrected (the space in 'ShareAlike. In'; the CC0 sentence of the closing notice). Operative terms unchanged.

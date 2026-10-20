@@ -1,6 +1,6 @@
 # 12 · Open Questions
 
-**Status:** [↻ living record] · v1.3.0 · 15 October 2026 (KST)
+**Status:** [↻ living record] · v1.3.1 · 20 October 2026 (KST)
 
 > **Resolutions, 15 October 2026 (KST).** Four questions resolved and one narrowed against the vendor's own documentation, read that day [20 October 2026: Q2 re-marked partly resolved and Q3 narrowed, see those rows]: *Data lifecycle and deletion* and *Control when Claude Tag responds* (`13-sources.md` items 32 and 33). Resolved rows stay in the table with their answers; the register does not delete history.
 

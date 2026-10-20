@@ -1,6 +1,6 @@
 # 01 · Abstract and Method
 
-**Status:** [✓ final] · v1.0.2 · 15 October 2026 (KST)
+**Status:** [✓ final] · v1.0.3 · 20 October 2026 (KST)
 
 > **Correction, 17 August 2026 (KST).** This file carried the claim that the legacy Claude in Slack app was force-migrated on 3 August 2026. **That claim is struck.** It was struck in v1.4.0 on 13 August 2026 against the vendor's own migration documentation, and the correction reached `02-timeline.md` and `05-feature-control-ledger.md` but not this file. Claude Tag replaces the earlier app *in place*: the same Slack app and `@Claude` handle remain, no data migrates, pairing the workspace defaults every scope to New, and Legacy is deprecated on an ~~**account-specific** cutover date~~ [superseded v1.5.0: the Legacy version was retired in every paired workspace on 5 October 2026, see `02-timeline.md`] after which Legacy scopes stop responding. There was no blanket automatic conversion on 3 August 2026.
 

@@ -1,6 +1,6 @@
 # 02 · Timeline
 
-**Status:** [↻ living record, append-only] · v1.3.0 · 15 October 2026 (KST)
+**Status:** [↻ living record, append-only] · v1.3.1 · 20 October 2026 (KST)
 
 Entries are dated, sourced (see `13-sources.md`) and never rewritten after entry: superseded text is struck in place with a pointer and never deleted; each correction is appended (see Corrections, below).
 

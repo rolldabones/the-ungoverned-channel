@@ -1,6 +1,6 @@
 # 04 · The Multiplayer Problem
 
-**Status:** [✓ final] · v1.0.0 · 11 July 2026
+**Status:** [✓ final] · v1.0.1 · 20 October 2026 (KST)
 
 This is the center of the case study. The question is what changes, as a matter of governance, when many humans share one agent, rather than each human having one.
 

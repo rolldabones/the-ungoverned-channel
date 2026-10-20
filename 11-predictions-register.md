@@ -1,6 +1,6 @@
 # 11 · Predictions Register
 
-**Status:** [↻ living record] · v1.1.0 · 15 October 2026 (KST)
+**Status:** [↻ living record] · v1.1.1 · 20 October 2026 (KST)
 
 Rules: each prediction is falsifiable, dated, assigned a confidence level and a review date. Outcomes are recorded whether the prediction survives or not. Predictions are never edited after registration; refinements are registered as new entries. Confidence is the drafter's honest credence, not advocacy. ~~Two entries (P2, P4) are registered *against* the study's thesis on purpose: if the thesis is right, they should mostly fail; if they succeed, the ledger rows they touch get marked superseded.~~ [Corrected 20 October 2026.] One entry (P2) is registered *against* the study's thesis on purpose: if the thesis is right, it should fail; if it succeeds, the ledger rows it touches get marked superseded. P4 is registered *for* the thesis: proactive behavior that is default-on is what "ungoverned by default" predicts, so its confirmation supports the thesis rather than weakening it.
 

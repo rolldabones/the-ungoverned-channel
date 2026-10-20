@@ -1,6 +1,6 @@
 # 06 · Threat Surface
 
-**Status:** [✓ final] · v1.1.2 · 15 October 2026 (KST)
+**Status:** [✓ final] · v1.1.3 · 20 October 2026 (KST)
 
 This file records the security dimension only to the depth governance requires: what can go wrong, how it is demonstrated and what the multiplayer setting adds. Full technical treatments exist elsewhere (see MAESTRO analysis and Mitiga research, `13-sources.md`).
 

@@ -1,6 +1,6 @@
 # 14 · The Enterprise Question Set: Pre-Deployment Questions for Agentic AI, with Possible Resolutions
 
-**Status:** [↻ living record, work in progress by design] · v1.0.2 · 15 October 2026 (KST)
+**Status:** [↻ living record, work in progress by design] · v1.0.3 · 20 October 2026 (KST)
 
 ## How to use this file
 

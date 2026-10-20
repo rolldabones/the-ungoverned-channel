@@ -1,6 +1,6 @@
 # 13 · Sources
 
-**Status:** [↻ living record] · v1.2.0 · 15 October 2026 (KST)
+**Status:** [↻ living record] · v1.2.1 · 20 October 2026 (KST)
 
 Tiered per the authority hierarchy in `01`. Sources are cited in the tier they occupy, not the tier their confidence implies. Accessed 11–12 July 2026 unless noted.
 

@@ -1,6 +1,6 @@
 # 03 · Product Architecture and Control Surfaces
 
-**Status:** [✓ final] · v1.1.0 · 12 July 2026
+**Status:** [✓ final] · v1.1.1 · 20 October 2026 (KST)
 
 ## What the product is
 
