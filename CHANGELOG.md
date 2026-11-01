@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.5] · 2026-11-02 · Patch: C6 re-cut on the resolved Q1
+
+- `09-compensating-controls.md` v1.1.3, C6 (Rehearsed Exit): no longer treats memory disposition as unconfirmed; it states the documented behavior that `12` Q1 resolved on 15 October 2026 (removing the agent deletes nothing; Remove this scope deletes the channel's sessions, transcripts, memory, routines and artifacts; workspace disconnect or uninstall deletes everything) and makes the rehearsal confirm that behavior, with a check for a legal hold before scope removal is rehearsed on live data. Found by the whole-account review of 24 October 2026 (reader report 02); train B.
+- README and `CITATION.cff` to v1.5.5. Prepared with Claude, approved by Michael Paik.
+
 ## [1.5.4] · 2026-11-02 · Patch: the X.AI v. Weiser stay
 
 - `07-regulatory-mapping.md` and `13-sources.md`: the Colorado entries add the enforcement stay, *X.AI LLC v. Weiser*, No. 1:26-cv-01515 (D. Colo. Apr. 27, 2026) (minute order, ECF No. 24), which `rolldabones/DOCTRINE.md` section 3.3 treats as reaching SB 26-189; dated in place as added 2 November 2026; the two files' status lines to v1.1.7 and v1.2.2. Found by the whole-account review of 24 October 2026 (reader report 02); train B of the improvement rotation.
