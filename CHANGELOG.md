@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.4] · 2026-11-02 · Patch: the X.AI v. Weiser stay
+
+- `07-regulatory-mapping.md` and `13-sources.md`: the Colorado entries add the enforcement stay, *X.AI LLC v. Weiser*, No. 1:26-cv-01515 (D. Colo. Apr. 27, 2026) (minute order, ECF No. 24), which `rolldabones/DOCTRINE.md` section 3.3 treats as reaching SB 26-189; dated in place as added 2 November 2026; the two files' status lines to v1.1.7 and v1.2.2. Found by the whole-account review of 24 October 2026 (reader report 02); train B of the improvement rotation.
+- README and `CITATION.cff` to v1.5.4. Prepared with Claude, approved by Michael Paik.
+
 ## [1.5.3] · 2026-10-20 · Patch: review corrections
 
 Independent review of 20 October 2026; changes made with Claude, approved by Michael Paik. Every superseded claim is struck in place with a dated note, and nothing is deleted.

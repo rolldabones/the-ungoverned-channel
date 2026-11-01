@@ -1,6 +1,6 @@
 # 13 · Sources
 
-**Status:** [↻ living record] · v1.2.1 · 20 October 2026 (KST)
+**Status:** [↻ living record] · v1.2.2 · 2 November 2026 (KST)
 
 Tiered per the authority hierarchy in `01`. Sources are cited in the tier they occupy, not the tier their confidence implies. Accessed 11–12 July 2026 unless noted.
 
@@ -10,7 +10,7 @@ Tiered per the authority hierarchy in `01`. Sources are cited in the tier they o
 2. Council of the EU, "Artificial Intelligence: Council gives final green light to simplify and streamline rules," press release, 29 June 2026. consilium.europa.eu. (Final approval; new high-risk dates 2 Dec 2027 / 2 Aug 2028; Art 50(2) grace period to 2 Dec 2026 for systems on the market before 2 Aug 2026; prohibition of non-consensual intimate imagery (NCII) and child sexual abuse material (CSAM).)
 3. Council of the EU, press release on provisional agreement, 7 May 2026 (updated 18 May 2026). consilium.europa.eu.
 4. Korea, Framework Act on the Development of Artificial Intelligence and Establishment of Trust, effective 22 January 2026.
-5. Colorado, SB 26-189 (Automated Decision-Making Technology Act), 2026 Colo. Sess. Laws ch. 131, signed 14 May 2026, effective 1 January 2027; ~~repeals and replaces SB 24-205 (Colorado AI Act, 2024), which never took effect~~ [corrected 20 October 2026] repeals and reenacts SB 24-205 (Colorado AI Act, 2024), whose duties, delayed to 30 June 2026, were never enforced (as reported). Duties: notice before use, and after an adverse outcome an explanation and rights to correct personal data and to meaningful human review and reconsideration (C.R.S. 6-1-1704, 6-1-1705, as reenacted).
+5. Colorado, SB 26-189 (Automated Decision-Making Technology Act), 2026 Colo. Sess. Laws ch. 131, signed 14 May 2026, effective 1 January 2027; ~~repeals and replaces SB 24-205 (Colorado AI Act, 2024), which never took effect~~ [corrected 20 October 2026] repeals and reenacts SB 24-205 (Colorado AI Act, 2024), whose duties, delayed to 30 June 2026, were never enforced (as reported). Duties: notice before use, and after an adverse outcome an explanation and rights to correct personal data and to meaningful human review and reconsideration (C.R.S. 6-1-1704, 6-1-1705, as reenacted). [added 2 November 2026] Enforcement stayed by *X.AI LLC v. Weiser*, No. 1:26-cv-01515 (D. Colo. Apr. 27, 2026) (minute order, ECF No. 24), which on its terms reaches SB 26-189; docket text read 20 October 2026 (see `rolldabones/DOCTRINE.md` section 3.3).
 
 ## Tier 2 · Official guidance and reputable legal analysis of Tier 1 acts
 
