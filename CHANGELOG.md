@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.6] · 2026-11-02 · Patch: Article 111(2) stated from the Official Journal
+
+- `07-regulatory-mapping.md` v1.1.8: the grandfathering parenthetical said systems avoid full obligations "until substantially modified", the defined Article 3(23) term with its own Article 25 consequences; Article 111(2), as replaced by Regulation (EU) 2026/1744, Article 1, point (39)(a), turns on "significant changes in their designs" from the date Chapter III applies, with public-authority systems to comply by 2 August 2030. Struck and corrected in place, Official Journal text read on EUR-Lex on 2 November 2026 (KST). Found by the whole-account review of 24 October 2026 (reader report 02); train B.
+- README and `CITATION.cff` to v1.5.6. Prepared with Claude, approved by Michael Paik.
+
 ## [1.5.5] · 2026-11-02 · Patch: C6 re-cut on the resolved Q1
 
 - `09-compensating-controls.md` v1.1.3, C6 (Rehearsed Exit): no longer treats memory disposition as unconfirmed; it states the documented behavior that `12` Q1 resolved on 15 October 2026 (removing the agent deletes nothing; Remove this scope deletes the channel's sessions, transcripts, memory, routines and artifacts; workspace disconnect or uninstall deletes everything) and makes the rehearsal confirm that behavior, with a check for a legal hold before scope removal is rehearsed on live data. Found by the whole-account review of 24 October 2026 (reader report 02); train B.
