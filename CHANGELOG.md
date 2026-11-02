@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.7] · 2026-11-03 · Patch: the README links its files
+
+- README Structure: every file name in the table is a link (the README linked none of its 18 files), with rows for `CONTRIBUTING.md`, `CITATION.cff` and `LICENSE.md`; the reader paths under the table link the file numbers they name. No study file changed. Train C of the improvement rotation (review of 24 October 2026).
+- README and `CITATION.cff` to v1.5.7. Prepared with Claude, approved by Michael Paik.
+
 ## [1.5.6] · 2026-11-02 · Patch: Article 111(2) stated from the Official Journal
 
 - `07-regulatory-mapping.md` v1.1.8: the grandfathering parenthetical said systems avoid full obligations "until substantially modified", the defined Article 3(23) term with its own Article 25 consequences; Article 111(2), as replaced by Regulation (EU) 2026/1744, Article 1, point (39)(a), turns on "significant changes in their designs" from the date Chapter III applies, with public-authority systems to comply by 2 August 2030. Struck and corrected in place, Official Journal text read on EUR-Lex on 2 November 2026 (KST). Found by the whole-account review of 24 October 2026 (reader report 02); train B.

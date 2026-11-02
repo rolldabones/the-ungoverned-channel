@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.5.6 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 2 November 2026 (Asia/Seoul)
+**Version:** 1.5.7 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 3 November 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -31,23 +31,26 @@ A static memo on a beta product is stale on publication. The vendor's retirement
 
 | File | Contents |
 |---|---|
-| `01-abstract-and-method.md` | Scope, method, authority hierarchy, critique of the v1 memo this study replaces |
-| `02-timeline.md` | Verified product timeline, updated as events occur |
-| `03-product-architecture.md` | What the product is and what control surfaces it exposes |
-| `04-the-multiplayer-problem.md` | Core analysis: attribution, responsibility diffusion, authority ambiguity, consensus laundering |
-| `05-feature-control-ledger.md` | The central artifact: each feature mapped to the control it displaces |
-| `06-threat-surface.md` | Injection, permission laundering, memory as attack and liability surface |
-| `07-regulatory-mapping.md` | EU (post-Omnibus), Korea, US; the classification-drift problem |
-| `08-privilege-discovery-legal-process.md` | Privilege, legal hold and discovery, by jurisdiction |
-| `09-compensating-controls.md` | Conditions of governability, stated as testable controls |
-| `10-verdict.md` | The thesis stress-tested against its best counterarguments |
-| `11-predictions-register.md` | Falsifiable predictions with confidence levels and review dates |
-| `12-open-questions.md` | Unknowns, held as unknowns, not filled by inference |
-| `13-sources.md` | Sources tiered by authority |
-| `14-enterprise-question-set.md` | **Jurisdiction-agnostic, product-agnostic pre-deployment questions (E1–E25) with possible resolutions, for any enterprise assessing agentic AI** |
-| `CHANGELOG.md` | Every change, logged |
+| [01-abstract-and-method.md](01-abstract-and-method.md) | Scope, method, authority hierarchy, critique of the v1 memo this study replaces |
+| [02-timeline.md](02-timeline.md) | Verified product timeline, updated as events occur |
+| [03-product-architecture.md](03-product-architecture.md) | What the product is and what control surfaces it exposes |
+| [04-the-multiplayer-problem.md](04-the-multiplayer-problem.md) | Core analysis: attribution, responsibility diffusion, authority ambiguity, consensus laundering |
+| [05-feature-control-ledger.md](05-feature-control-ledger.md) | The central artifact: each feature mapped to the control it displaces |
+| [06-threat-surface.md](06-threat-surface.md) | Injection, permission laundering, memory as attack and liability surface |
+| [07-regulatory-mapping.md](07-regulatory-mapping.md) | EU (post-Omnibus), Korea, US; the classification-drift problem |
+| [08-privilege-discovery-legal-process.md](08-privilege-discovery-legal-process.md) | Privilege, legal hold and discovery, by jurisdiction |
+| [09-compensating-controls.md](09-compensating-controls.md) | Conditions of governability, stated as testable controls |
+| [10-verdict.md](10-verdict.md) | The thesis stress-tested against its best counterarguments |
+| [11-predictions-register.md](11-predictions-register.md) | Falsifiable predictions with confidence levels and review dates |
+| [12-open-questions.md](12-open-questions.md) | Unknowns, held as unknowns, not filled by inference |
+| [13-sources.md](13-sources.md) | Sources tiered by authority |
+| [14-enterprise-question-set.md](14-enterprise-question-set.md) | **Jurisdiction-agnostic, product-agnostic pre-deployment questions (E1–E25) with possible resolutions, for any enterprise assessing agentic AI** |
+| [CHANGELOG.md](CHANGELOG.md) | Every change, logged |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to propose a correction or contribution |
+| [CITATION.cff](CITATION.cff) | Machine-readable citation |
+| [LICENSE.md](LICENSE.md) | The license |
 
-Not every reader needs every file. A board member or approving executive: `05`, `10` and `14`. A deploying risk or compliance function: `09`, `12` and `14`. A security team: `03`, `06` and `09`. Counsel: `07` and `08`. A reader with ten minutes: `05`, then the bold sentence closing `10`.
+Not every reader needs every file. A board member or approving executive: [05](05-feature-control-ledger.md), [10](10-verdict.md) and [14](14-enterprise-question-set.md). A deploying risk or compliance function: [09](09-compensating-controls.md), [12](12-open-questions.md) and [14](14-enterprise-question-set.md). A security team: [03](03-product-architecture.md), [06](06-threat-surface.md) and [09](09-compensating-controls.md). Counsel: [07](07-regulatory-mapping.md) and [08](08-privilege-discovery-legal-process.md). A reader with ten minutes: [05](05-feature-control-ledger.md), then the bold sentence closing [10](10-verdict.md).
 
 ## Update protocol
 
@@ -89,7 +92,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.6. 2026. https://github.com/rolldabones/the-ungoverned-channel
+> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.7. 2026. https://github.com/rolldabones/the-ungoverned-channel
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
