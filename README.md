@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.5.7 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 3 November 2026 (Asia/Seoul)
+**Version:** 1.5.8 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 9 November 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -90,9 +90,13 @@ Nearest neighbors:
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the practice method for **Slow AI**, in the short form of the Doctrinal frame above, which the working thesis puts to the test
 - [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist): the one-day workshop that teaches the minimum control set whose absence this case study records
 
+## License
+
+CC BY-SA 4.0 ([LICENSE.md](LICENSE.md)). Commercial use is permitted under this license; how it sits beside the account's NonCommercial repositories is set out in [LICENSING.md](https://github.com/rolldabones/rolldabones/blob/main/LICENSING.md).
+
 ## How to Cite
 
-> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.7. 2026. https://github.com/rolldabones/the-ungoverned-channel
+> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.8. 2026. https://github.com/rolldabones/the-ungoverned-channel
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

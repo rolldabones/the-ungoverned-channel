@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.8] · 2026-11-09 · Patch: the License section points to LICENSING.md
+
+- README, License, new section: the license and one line pointing to `rolldabones/LICENSING.md` (v1.0.0, new), which states that CC BY-SA 4.0 permits commercial use and how it sits beside the account's NonCommercial repositories; the README had no License section.
+- README and `CITATION.cff` to v1.5.8. No study file changed. Train D of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
+
 ## [1.5.7] · 2026-11-03 · Patch: the README links its files
 
 - README Structure: every file name in the table is a link (the README linked none of its 18 files), with rows for `CONTRIBUTING.md`, `CITATION.cff` and `LICENSE.md`; the reader paths under the table link the file numbers they name. No study file changed. Train C of the improvement rotation (review of 24 October 2026).
