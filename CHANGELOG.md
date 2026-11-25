@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.9] · 2026-11-26 · Patch: the memory state persists; file 04 corrected against Q5
+
+- **`04-the-multiplayer-problem.md` to v1.0.2.** The paragraph on output-level accountability closed on "a memory state that no longer exists". **Superseded in place.** The study's own Q5 (`12-open-questions.md`, resolved 15 October 2026) records that earlier versions of a scope's memory remain stored until the scope's data is deleted, and the same file's item 1 already says so. The state persists with the vendor; what an Owner views is the current memory files. The finding on attribution stands and is not re-scored: the mapping from output to responsible human contribution is still not well defined.
+- README and `CITATION.cff` to v1.5.9. No other study file changed. Account review of 10 November 2026, High finding (CSV row 1530, ruling #83), accepted by Michael Paik that day (`account-maintenance/reviews/2026-11-10/Recommended_Rulings_Account_v0.2.md`); worked ahead of the repository's rotation slot on his ruling of 26 November 2026. Prepared with Claude, approved by Michael Paik.
+
 ## [1.5.8] · 2026-11-09 · Patch: the License section points to LICENSING.md
 
 - README, License, new section: the license and one line pointing to `rolldabones/LICENSING.md` (v1.0.0, new), which states that CC BY-SA 4.0 permits commercial use and how it sits beside the account's NonCommercial repositories; the README had no License section.
