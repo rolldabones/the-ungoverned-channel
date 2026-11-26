@@ -1,6 +1,6 @@
 # 13 · Sources
 
-**Status:** [↻ living record] · v1.2.2 · 2 November 2026 (KST)
+**Status:** [↻ living record] · v1.2.3 · 27 November 2026 (KST)
 
 Tiered per the authority hierarchy in `01`. Sources are cited in the tier they occupy, not the tier their confidence implies. Accessed 11–12 July 2026 unless noted.
 
@@ -30,7 +30,7 @@ Tiered per the authority hierarchy in `01`. Sources are cited in the tier they o
 16. Anthropic, Claude Code documentation, "Claude Code in Slack." code.claude.com/docs/en/slack. (Vendor caution that Claude "may follow directions from other messages in the context" and should be used only in trusted Slack conversations; Claude Tag replacement notice.)
 
 31. Anthropic, Claude Tag documentation, "Migrate from the earlier Claude in Slack." claude.com/docs/claude-tag/admins/migrate-from-earlier. Read 13 August 2026 (KST) for v1.4.0 and re-read 15 October 2026 (KST). (In-place replacement, no data migrates, default-to-New at pairing; since 5 October 2026 the Legacy version no longer answers in paired workspaces and cannot be re-selected; skills repositories; public beta.)
-32. Anthropic, Claude Tag documentation, "Data lifecycle and deletion." claude.com/docs/claude-tag/concepts/data-lifecycle. Read 15 October 2026 (KST). (What Anthropic stores, including session transcripts holding edited and deleted messages and connected-tool data; no automatic retention period during the beta; `/remove @Claude` deletes nothing; Remove this scope and workspace disconnect delete; memory-files view and Owner deletion of entries; transcripts and memory outside data exports and the Compliance API; deletions audit-logged.)
+32. Anthropic, Claude Tag documentation, "Data lifecycle and deletion." claude.com/docs/claude-tag/concepts/data-lifecycle. Read 15 October 2026 (KST). (What Anthropic stores, including session transcripts holding edited and deleted messages and connected-tool data; no automatic retention period during the beta; `/remove @Claude` deletes nothing; Remove this scope and workspace disconnect delete; memory-files view and Owner deletion of entries; transcripts and memory outside data exports and the Compliance API; deletions audit-logged.) **Re-read 27 November 2026 (KST)** in a browser after an outside reader flagged the change; a page-summarizing fetch the same day still returned the earlier text. (Now: an optional Claude Tag **Retention policy**, in beta and available to a limited set of organizations, deleting sessions inactive longer than an Owner-set period of 30 days or more with their transcripts, not memory; another retention period covering cloud sessions can also delete sessions; on the Enterprise plan with the Compliance API enabled, sessions can be listed and transcripts read, not deleted; transcripts and memory still outside data exports.)
 33. Anthropic, Claude Tag documentation, "Control when Claude Tag responds." claude.com/docs/claude-tag/users/when-claude-responds. Read 15 October 2026 (KST). (Respond automatically on by default, per channel, no workspace- or organization-wide version; Channel member edits: Block; Claude off by default in channels with guests and in Slack Connect channels; "ambient presence".)
 
 ## Tier 4 · Security research

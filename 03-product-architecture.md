@@ -1,6 +1,6 @@
 # 03 · Product Architecture and Control Surfaces
 
-**Status:** [✓ final] · v1.1.1 · 20 October 2026 (KST)
+**Status:** [✓ final] · v1.1.2 · 27 November 2026 (KST)
 
 ## What the product is
 
@@ -26,7 +26,7 @@ Recording these accurately matters, because the study's thesis is not that contr
 | Ambient mode toggle | ~~Off/on per configuration; vendor launch guidance reportedly recommends starting with ambient disabled~~ [superseded 20 October 2026: the vendor setting **Respond automatically** is on by default, per channel (`12` Q4)] | ~~Default posture and per-channel granularity: see `12-open-questions.md`~~ [resolved, `12` Q4]: there is no workspace- or organization-wide version, and any channel member can change it by asking Claude unless an Owner sets **Channel member edits** to Block |
 | Draft-privately review (legacy app) [superseded 20 October 2026: the legacy app no longer answers in channels of paired workspaces since 5 October 2026, see `02-timeline.md`] | Public-thread drafts shown to the requester before posting | Applies to the per-user flow; the agentic multi-stage flow posts work products directly |
 | Centralized audit console | Logs which user initiated each request and what tools the agent used | Does not capture memory state, does not make outputs reproducible, ~~retention unverified~~ [20 October 2026: retention and export of the activity log remain Unknown; `12` Q2 is partly resolved, for transcripts and memory only] |
-| Data handling | Commercial Slack data handled per Anthropic's data processing agreement (DPA); not used for training by default | ~~Vendor-held memory remains non-enumerable by the deployer~~ [superseded 20 October 2026: memory files are enumerable by an Owner (`12` Q5)]. Session transcripts cannot be deleted per thread, earlier memory versions remain stored until the scope's data is deleted, and neither transcripts nor memory are in the organization's data exports (`12` Q2) |
+| Data handling | Commercial Slack data handled per Anthropic's data processing agreement (DPA); not used for training by default | ~~Vendor-held memory remains non-enumerable by the deployer~~ [superseded 20 October 2026: memory files are enumerable by an Owner (`12` Q5)]. Session transcripts cannot be deleted per thread, earlier memory versions remain stored until the scope's data is deleted, and neither transcripts nor memory are in the organization's data exports (`12` Q2) [27 November 2026 (KST): transcripts can be listed and read, not deleted, through the Compliance API on the Enterprise plan, and inactive sessions can be deleted under the Claude Tag Retention policy, in beta and available to a limited set of organizations] |
 
 ## The architectural observation that organizes everything else
 

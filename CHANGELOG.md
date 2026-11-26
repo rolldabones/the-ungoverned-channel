@@ -2,6 +2,19 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.6.0] · 2026-11-27 · Vendor re-check under update protocol trigger 1: transcripts readable, sessions can expire
+
+The vendor's *Data lifecycle and deletion* page (`13` item 32), re-read in a browser on 27 November 2026 (KST) after an outside reader flagged the change, no longer says what the study quoted on 15 October 2026. Two product changes, date of change Unknown: (1) on the Enterprise plan with the Compliance API enabled, an organization can list Claude Tag sessions and read their transcripts through the API, which still cannot delete them; (2) a Claude Tag **Retention policy**, in beta and available to a limited set of organizations, lets an Owner set a period of 30 days or more after which inactive sessions are deleted with their transcripts, not memory. Data exports still exclude transcripts and memory, memory still does not expire, and no control deletes a single thread's transcript. A currency update, not a correction of substance: the study was accurate when read. Every superseded claim is marked in place and nothing is deleted.
+
+- **`12-open-questions.md` to v1.3.2.** Q2: the Compliance API limb and the "retention is indefinite and export is absent" finding marked superseded; the adverse finding now holds in full for memory and, for transcripts, only outside the two configurations. Q7: "nothing expires" and "which no documented control does" marked superseded; Rule 37(e) exposure attaches to expiry again where a session retention period is set. The activity-log Unknown in Q2 is untouched: the page does not answer it.
+- **`08-privilege-discovery-legal-process.md` to v1.1.3.** Section B preservation and production limbs, and the transcript paragraph's "outside the Compliance API, reachable only through the vendor", marked superseded.
+- **`05-feature-control-ledger.md` to v1.2.2.** Row 2: "nothing expires" and the Compliance API limb of the residual marked superseded. The control column is not changed.
+- **`03-product-architecture.md` to v1.1.2.** Data handling row annotated.
+- **`11-predictions-register.md` to v1.1.2.** P2 annotated: session expiry is not memory expiry, so the expiry disjunct still fails and the scoring stands.
+- **`13-sources.md` to v1.2.3.** Item 32 carries the re-read and what the page now says.
+- **Not changed, recorded.** `09` C10 (the activity log, still Unknown), `07` GDPR (the erasure analysis rests on memory versions and single-thread deletion, both unchanged) and `14` E-series (product-agnostic) were read against the page and need no mark.
+- **Version occurrences.** `README.md` masthead and How to Cite block, and `CITATION.cff` `version` and `date-released`, to 1.6.0 and 2026-11-27.
+
 ## [1.5.10] · 2026-11-26 · Patch: archived neighbors labeled
 
 - **README, Part of the ecosystem:** the 2 archived neighbors are marked "archived edition", with one sentence pointing to DISPOSITION.md. No study file changed. On Michael Paik's rulings of 26 November 2026, recorded in DISPOSITION.md in the profile repository: thirteen repositories of the account were archived that day as dated editions. No file is added, removed, renamed or moved. Prepared with Claude, approved by Michael Paik.

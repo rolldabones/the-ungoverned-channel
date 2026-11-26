@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.5.10 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 26 November 2026 (Asia/Seoul)
+**Version:** 1.6.0 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 27 November 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -98,7 +98,7 @@ CC BY-SA 4.0 ([LICENSE.md](LICENSE.md)). Commercial use is permitted under this 
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.10. 2026. https://github.com/rolldabones/the-ungoverned-channel
+> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.6.0. 2026. https://github.com/rolldabones/the-ungoverned-channel
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
