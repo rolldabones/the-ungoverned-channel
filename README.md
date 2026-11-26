@@ -2,7 +2,7 @@
 
 **A living case study of agentic AI in multiplayer workflows: Claude in Slack and Claude Tag**
 
-**Version:** 1.5.9 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 26 November 2026 (Asia/Seoul)
+**Version:** 1.5.10 · **Status:** [✓ final baseline · living document, updated as new information arises] · **Last updated:** 26 November 2026 (Asia/Seoul)
 **Author:** Son-U Michael Paik · **License:** CC BY-SA 4.0
 
 ---
@@ -86,9 +86,11 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 Nearest neighbors:
 - [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): the jurisdiction guides and board question bank behind file 07 and the approving-executive audience of the enterprise question set
-- [AI-Impact-Assessment-Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool): the pre-deployment assessment gate whose absence this case study documents in the wild
+- [AI-Impact-Assessment-Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool) (archived edition): the pre-deployment assessment gate whose absence this case study documents in the wild
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the practice method for **Slow AI**, in the short form of the Doctrinal frame above, which the working thesis puts to the test
-- [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist): the one-day workshop that teaches the minimum control set whose absence this case study records
+- [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist) (archived edition): the one-day workshop that teaches the minimum control set whose absence this case study records
+
+Entries marked archived edition are dated editions that receive no corrections; [DISPOSITION.md](https://github.com/rolldabones/rolldabones/blob/main/DISPOSITION.md) lists them.
 
 ## License
 
@@ -96,7 +98,7 @@ CC BY-SA 4.0 ([LICENSE.md](LICENSE.md)). Commercial use is permitted under this 
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.9. 2026. https://github.com/rolldabones/the-ungoverned-channel
+> Paik, Son-U Michael. *The Ungoverned Channel: A Living Case Study of Agentic AI in Multiplayer Workflows*, v1.5.10. 2026. https://github.com/rolldabones/the-ungoverned-channel
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

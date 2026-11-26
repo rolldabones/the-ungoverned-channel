@@ -2,6 +2,11 @@
 
 All notable changes to this case study are documented here. Superseded claims are marked in place, never deleted. The update protocol in the README defines what triggers an entry.
 
+## [1.5.10] · 2026-11-26 · Patch: archived neighbors labeled
+
+- **README, Part of the ecosystem:** the 2 archived neighbors are marked "archived edition", with one sentence pointing to DISPOSITION.md. No study file changed. On Michael Paik's rulings of 26 November 2026, recorded in DISPOSITION.md in the profile repository: thirteen repositories of the account were archived that day as dated editions. No file is added, removed, renamed or moved. Prepared with Claude, approved by Michael Paik.
+- README and `CITATION.cff` to v1.5.10.
+
 ## [1.5.9] · 2026-11-26 · Patch: the memory state persists; file 04 corrected against Q5
 
 - **`04-the-multiplayer-problem.md` to v1.0.2.** The paragraph on output-level accountability closed on "a memory state that no longer exists". **Superseded in place.** The study's own Q5 (`12-open-questions.md`, resolved 15 October 2026) records that earlier versions of a scope's memory remain stored until the scope's data is deleted, and the same file's item 1 already says so. The state persists with the vendor; what an Owner views is the current memory files. The finding on attribution stands and is not re-scored: the mapping from output to responsible human contribution is still not well defined.
